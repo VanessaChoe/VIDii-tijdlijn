@@ -8,12 +8,12 @@
 }
 
 body {
-  margin:0;
+  background-color: lightblue;
 }
 
-button:not([disabled]) {
+/* button:not([disabled]) {
   cursor:pointer;
-}
+} */
 
 
 
@@ -35,11 +35,122 @@ button:not([disabled]) {
 /* ALGEMENE STYLING */
 /********************/
 
-h1 {
+/* h1 {
   color:var(--color-headings);
+} */
+section:first-of-type{
+  position: absolute;
+  bottom: 0;
+}
+img:first-of-type {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  left: 2em;
+}
+
+section:first-of-type ol{
+  position: relative;
+    float: right;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-column-gap: 2.7em;
+    left: 14.5em;
+    bottom: 18em;
+}
+
+section ol li{
+  list-style: none;
+}
+
+section:first-of-type ol li img{
+  width: 2.5em;
+  height: 2.5em;
+}
+
+section ol li:nth-child(2) img{
+  bottom: 2.5em;
+}
+section ol li:nth-child(3) img{
+  bottom: 5em;
+}
+section ol li:nth-child(4) img{
+  bottom: 7.5em;
+}
+section ol li:nth-child(5) img{
+  bottom: 10em;
+}
+section ol li:nth-child(6) img{
+  bottom: 12.5em;
+}
+section ol li:nth-child(7) img{
+  bottom: 15em;
+}
+section ol li:nth-child(8) img{
+  bottom: 17.5em;
+}
+section ol li:nth-child(9) img{
+  bottom: 20em;
 }
 
 
-/* ... */
 
 
+
+
+
+
+
+
+
+
+
+section:nth-child(2){
+  position: absolute;
+  bottom: 0;
+}
+img:first-of-type {
+  position: relative;
+  width: 5.5em;
+  height: 7em;
+  left: 2em;
+}
+
+section:nth-child(2) ol{
+  position: relative;
+  float: right;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-column-gap: 1.7em;
+}
+
+section ol li{
+  list-style: none;
+}
+
+section ol li:nth-child(2) img{
+  bottom: 2.5em;
+}
+section ol li:nth-child(3) img{
+  bottom: 5em;
+}
+section ol li:nth-child(4) img{
+  bottom: 7.5em;
+}
+section ol li:nth-child(5) img{
+  bottom: 10em;
+}
+section ol li:nth-child(6) img{
+  bottom: 12.5em;
+}
+section ol li:nth-child(7) img{
+  bottom: 15em;
+}
+section ol li:nth-child(8) img{
+  bottom: 17.5em;
+}
+section ol li:nth-child(9) img{
+  bottom: 20em;
+}
