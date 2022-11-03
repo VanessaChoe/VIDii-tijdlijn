@@ -1,0 +1,290 @@
+/*************/
+/* CSS RESET */
+/*************/
+
+/* naar een idee van Jen Simmons */
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  body {
+    /* background-image: url("/images/background.jpg");
+    height: 100vh;
+    display:grid;
+    place-content: center; */
+    background-color: lightblue;
+  }
+  
+  /* button:not([disabled]) {
+    cursor:pointer;
+  } */
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  
+  :root {
+    --color-headings:crimson
+  }
+  
+  
+  /* ////////////////// */
+  
+  section li:first-of-type img{ /*  mario */
+    width:5em;
+    height: 6.5em;
+    bottom: 7em;
+    left: 5em;
+    z-index: 1;
+  }
+  
+  section ul{
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    height: 98vh;
+  }
+  section ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: min-content;
+    position: relative;
+  }
+  
+  section ul li article:first-of-type button h2{ /* Vraagteken */
+    color: white;
+  }
+  
+  section ul li article:first-of-type button{ /*  Vraagtekenblokje */
+    background-color: #F3CC0A;
+    border: solid #9B8204;
+    border-radius: 0.2em;
+    width: 3.5em;
+    height: 3.5em;
+    display: grid;
+    place-content: center;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+  }
+  
+  section ul li article:nth-of-type(2) header{ /*  Buis 1 bovenkant  */
+    /* content: ""; */
+    /* z-index: 1; */
+    /* position: relative; */
+    /* top: 32.3em; */
+    /* left: -2.465em; */
+    height: 2.5em;
+    width: 5em;
+    border-radius: 6px;
+    border-bottom: solid 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 5px rgb(0 0 0 / 50%);
+    background: linear-gradient( 
+      to right, 
+      #579c66, 
+      #579c66 5px, 
+      #6dad7b 18px, 
+      #e9ffe8 36px, 
+      #9dd591 53px, 
+      #6bb765 103px, 
+      #142e16 100% );
+  }
+  section ul li article:nth-of-type(2) button{ /*  Buis 1 onderkant  */
+    width: 5em;
+    height: 5em;
+    /* position: absolute; */
+    border: none;
+    /* bottom: 0; */
+    /* transform: translateX(-50%); */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(
+      to right,
+      #579c66,
+      #579c66 5px,
+      #6dad7b 15px,
+      #e9ffe8 33px,
+      #9dd591 50px,
+      #6bb765 100px,
+      #142e16 100%
+    );
+  }
+  
+  
+  section ul li:nth-of-type(3) article:nth-of-type(2) header{ /*  Buis 2 bovenkant  */
+    /* content: ""; */
+    /* z-index: 1; */
+    /* position: relative; */
+    /* top: 29.8em; */
+    /* left: -2.465em; */
+    /* height: 2.5em; */
+    /* width: 5em; */
+    /* border-radius: 6px; */
+    /* border-bottom: solid 7px rgba(0, 0, 0, 0.4); */
+    /* box-shadow: 0 4px 5px rgb(0 0 0 / 50%); */
+    /* background: linear-gradient( 
+      to right, 
+      #579c66, 
+      #579c66 5px, 
+      #6dad7b 18px, 
+      #e9ffe8 36px, 
+      #9dd591 53px, 
+      #6bb765 103px, 
+      #142e16 100% ); */
+  }
+  section ul li:nth-of-type(3) article:nth-of-type(2) button{ /*  Buis 2 onderkant  */
+    /* width: 5em; */
+    height: 8em;
+    /* position: absolute; */
+    /* border: none; */
+    /* bottom: 0; */
+    /* transform: translateX(-50%); */
+    /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(
+      to right,
+      #579c66,
+      #579c66 5px,
+      #6dad7b 15px,
+      #e9ffe8 33px,
+      #9dd591 50px,
+      #6bb765 100px,
+      #142e16 100%
+    ); */
+  }
+  
+  section ul li:nth-of-type(4) article:nth-of-type(2) header{ /*  Buis 3 bovenkant  */
+    /* content: ""; */
+    /* z-index: 1; */
+    /* position: relative; */
+    /* top: 27.3em; */
+    /* left: -2.465em; */
+    /* height: 2.5em; */
+    /* width: 5em; */
+    /* border-radius: 6px; */
+    /* border-bottom: solid 7px rgba(0, 0, 0, 0.4); */
+    /* box-shadow: 0 4px 5px rgb(0 0 0 / 50%); */
+    /* background: linear-gradient( 
+      to right, 
+      #579c66, 
+      #579c66 5px, 
+      #6dad7b 18px, 
+      #e9ffe8 36px, 
+      #9dd591 53px, 
+      #6bb765 103px, 
+      #142e16 100% ); */
+  }
+  section ul li:nth-of-type(4) article:nth-of-type(2) button{ /*  Buis 3 onderkant  */
+    /* width: 5em; */
+    height: 11em;
+    /* position: absolute; */
+    /* border: none; */
+    /* bottom: 0; */
+    /* transform: translateX(-50%); */
+    /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(
+      to right,
+      #579c66,
+      #579c66 5px,
+      #6dad7b 15px,
+      #e9ffe8 33px,
+      #9dd591 50px,
+      #6bb765 100px,
+      #142e16 100%
+    ); */
+  }
+  
+  
+  section ul li:nth-of-type(5) article:nth-of-type(2) header{ /*  Buis 4 bovenkant  */
+    /* content: ""; */
+    /* z-index: 1; */
+    /* position: relative; */
+    /* top: 24.8em; */
+    /* left: -2.465em; */
+    /* height: 2.5em; */
+    /* width: 5em; */
+    /* border-radius: 6px; */
+    /* border-bottom: solid 7px rgba(0, 0, 0, 0.4); */
+    /* box-shadow: 0 4px 5px rgb(0 0 0 / 50%); */
+    /* background: linear-gradient( 
+      to right, 
+      #579c66, 
+      #579c66 5px, 
+      #6dad7b 18px, 
+      #e9ffe8 36px, 
+      #9dd591 53px, 
+      #6bb765 103px, 
+      #142e16 100% ); */
+  }
+  section ul li:nth-of-type(5) article:nth-of-type(2) button{ /*  Buis 4 onderkant  */
+    /* width: 5em; */
+    height: 14em;
+    /* position: absolute; */
+    /* border: none; */
+    /* bottom: 0; */
+    /* transform: translateX(-50%); */
+    /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(
+      to right,
+      #579c66,
+      #579c66 5px,
+      #6dad7b 15px,
+      #e9ffe8 33px,
+      #9dd591 50px,
+      #6bb765 100px,
+      #142e16 100%
+    ); */
+  }
+  
+  
+  section ul li:nth-of-type(6) article:nth-of-type(2) header{ /*  Buis 5 bovenkant  */
+    /* content: ""; */
+    /* z-index: 1; */
+    /* position: relative; */
+    /* top: 22.3em; */
+    /* left: -2.465em; */
+    /* height: 2.5em; */
+    /* width: 5em; */
+    /* border-radius: 6px; */
+    /* border-bottom: solid 7px rgba(0, 0, 0, 0.4); */
+    /* box-shadow: 0 4px 5px rgb(0 0 0 / 50%); */
+    /* background: linear-gradient( 
+      to right, 
+      #579c66, 
+      #579c66 5px, 
+      #6dad7b 18px, 
+      #e9ffe8 36px, 
+      #9dd591 53px, 
+      #6bb765 103px, 
+      #142e16 100% ); */
+  }
+  section ul li:nth-of-type(6) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
+    /* width: 5em; */
+    height: 17em;
+    /* position: absolute; */
+    /* border: none; */
+    /* bottom: 0; */
+    /* transform: translateX(-50%); */
+    /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(
+      to right,
+      #579c66,
+      #579c66 5px,
+      #6dad7b 15px,
+      #e9ffe8 33px,
+      #9dd591 50px,
+      #6bb765 100px,
+      #142e16 100%
+    ); */
+  }
+  
+  li article:first-of-type {
+      height: 3em;
+      position: relative;
+      bottom: 13em;
+  }
+  
+  section ul li img {width: 100%;position: absolute;}
+  
+  section ul li:has(img) {
+      align-self: end;
+  }
