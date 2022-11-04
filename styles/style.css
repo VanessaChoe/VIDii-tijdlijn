@@ -10,9 +10,10 @@
 }
 
 body {
-  background-image: url("/images/background.jpg");
+  /* background-image: url("/images/background.jpg"); */
   overflow-y: scroll;
-  overflow-x: scroll;
+  overflow-x: scroll; 
+  background-color: lightblue;
 }
 
 /*********************/
@@ -28,26 +29,67 @@ body {
 
 /* Mario */
 
-section ul li > img {
+section ul li:first-of-type img {
   width: 100%;
-  /* position: absolute; */
+  position: relative;
   width: 5em;
   height: 6.5em;
+  z-index: 1;
+  right: 2em;
+  /* animation: jump 5s; */
 }
-
-section ul li:has(img) {
-    align-self: end;
+.naarTube1 {
+  animation: jump 8s;
 }
-
+@keyframes jump {
+  0%{
+    transform: translateY(-0em);
+    left: 0em;
+  }
+  2%{
+    transform: translateY(-6em);
+    left: 2em;
+  }
+  3%{
+    transform: translateY(-7em);
+    left: 2.5em;
+  }
+  4%{
+    transform: translateY(-8em);
+    left: 3em;
+  }
+  5%{
+    transform: translateY(-9em);
+    left: 3.5em;
+  }
+  6%{
+    transform: translateY(-10em);
+    left: 4em;
+  }
+  7%{
+    transform: translateY(-9em);
+    left: 4.5em;
+  }
+  8%{
+    transform: translateY(-8em);
+    left: 5em;
+  }
+  9%{
+    transform: translateY(-7em);
+    left: 5.5em;
+  }
+  10%{
+    transform: translateY(-6em);
+    left: 6em;
+  }
+}
 
 /* Container buizen */
 
-section{
-  column-gap: 3em; 
-}
 section ul{
   display: flex;
   height: 100vh;
+  column-gap: 1em;
 }
 section ul li{
   list-style-type: none;
@@ -56,6 +98,9 @@ section ul li{
   justify-content: flex-end;
   width: min-content;
   position: relative;
+}
+section ul li:has(img) {
+  align-self: end;
 }
 li article:first-of-type {
   height: 3em;
