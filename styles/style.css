@@ -9,12 +9,6 @@
   margin: 0; 
 }
 
-body {
-  /* background-image: url("/images/background.jpg"); */
-  overflow-y: scroll;
-  overflow-x: scroll; 
-  background-color: lightblue;
-}
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -24,176 +18,111 @@ body {
   --color-headings:crimson
 }
 
+
+
+
+
+
+
+
+body {
+  /* background-image: url("/images/background.jpg"); */
+  /* overflow-y: scroll;
+  overflow-x: scroll;  */
+  background-color: lightblue;
+}
+
+
+
 /* ////////////////// */
 
 
-/* Mario */
-
-section ul li:first-of-type img {
-  width: 100%;
-  position: relative;
-  width: 5em;
-  height: 6.5em;
-  z-index: 1;
-  right: 2em;
-  /* animation: jump 5s; */
+section {
+  /* background-color:gold; */
 }
-.naarTube1 {
-  animation: jump 8s;
-}
-@keyframes jump {
-  0%{
-    transform: translateY(-0em);
-    left: 0em;
-  }
-  2%{
-    transform: translateY(-6em);
-    left: 2em;
-  }
-  3%{
-    transform: translateY(-7em);
-    left: 2.5em;
-  }
-  4%{
-    transform: translateY(-8em);
-    left: 3em;
-  }
-  5%{
-    transform: translateY(-9em);
-    left: 3.5em;
-  }
-  6%{
-    transform: translateY(-10em);
-    left: 4em;
-  }
-  7%{
-    transform: translateY(-9em);
-    left: 4.5em;
-  }
-  8%{
-    transform: translateY(-8em);
-    left: 5em;
-  }
-  9%{
-    transform: translateY(-7em);
-    left: 5.5em;
-  }
-  10%{
-    transform: translateY(-6em);
-    left: 6em;
-  }
-}
-
-/* Container buizen */
 
 section ul{
   display: flex;
+  justify-content: space-around;
+  align-items: end;
   height: 100vh;
-  column-gap: 1em;
+  column-gap: 3vw;
+
+  background-color:#0f88;
+
+  margin:0;
+  padding:0;
+  list-style: none;
 }
+
 section ul li{
-  list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  width: min-content;
+  justify-content:space-between;
+  align-items: center;
+  width: max-content;
   position: relative;
+
+  height:30vw;
+
+  background-color:#ff08;
 }
-section ul li:has(img) {
-  align-self: end;
-}
-li article:first-of-type {
-  height: 3em;
+
+
+/* Mario */
+section ul li img {
+  display:block;
   position: relative;
-  bottom: 13em;
+
+  width: 6vw;
+  height: auto;
+  z-index: 100;
+
+  /* animation: jump 5s; */
 }
-li article:first-of-type button{
-  transform: translateX(40%);
+
+.naarBlok1{
+  animation: jump 2s;
+}
+
+@keyframes jump {
+  0% { 
+    transform: translateY(0); 
+    animation-timing-function: ease-out;
+  }
+  50% { 
+    transform: translateY(-17vw); 
+    animation-timing-function: ease-in;
+  }
+  100% { 
+    transform: translateY(0); 
+  }
 }
 
 
 /* Vraagtekenblokje */
-
-section ul li article:first-of-type button h2{ 
-  color: white;
-}
-
-section ul li article:first-of-type button{ 
+section ul li  button{ 
   background-color: #F3CC0A;
   border: solid #9B8204;
   border-radius: 0.2em;
-  width: 3.5em;
-  height: 3.5em;
-  display: grid;
-  place-content: center;
+  width: 3em;
+  height: 3em;
+
   box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+
+  color: white;
+
+  font-size:1.5vw;
 }
 
-/* Buis styling */
-
-section ul li article:nth-of-type(2) header{ /*  Buis bovenkant  */
-  height: 2em;
-  width: 5em;
-  border-radius: 6px;
-  border-bottom: solid 7px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 4px 5px rgb(0 0 0 / 50%);
-  background: linear-gradient( 
-    to right, 
-    #579c66, 
-    #579c66 5px, 
-    #6dad7b 18px, 
-    #e9ffe8 36px, 
-    #9dd591 53px, 
-    #6bb765 103px, 
-    #142e16 100% );
-}
-section ul li article:nth-of-type(2) button{ /*  Buis onderkant  */
-  width: 5em;
-  height: 5em;
-  /* bottom: 0; */
-  border: none;
-  transform: translateX(10%);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(
-    to right,
-    #579c66,
-    #579c66 5px,
-    #6dad7b 15px,
-    #e9ffe8 33px,
-    #9dd591 50px,
-    #6bb765 100px,
-    #142e16 100%
-  );
-}
+/* Container buizen */
 
 
-/* Hoogte buizen vanaf buis 2 */
 
-section ul li:nth-of-type(3) article:nth-of-type(2) button{ /*  Buis 2 onderkant  */
-  height: 8em;
-}
-section ul li:nth-of-type(4) article:nth-of-type(2) button{ /*  Buis 3 onderkant  */
-  height: 11em;
-}
-section ul li:nth-of-type(5) article:nth-of-type(2) button{ /*  Buis 4 onderkant  */
-  height: 14em;
-}
-section ul li:nth-of-type(6) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
-  height: 17em;
-}
 
-section ul li:nth-of-type(7) article:nth-of-type(2) button{ /*  Buis 2 onderkant  */
-  height: 20em;
-}
-section ul li:nth-of-type(8) article:nth-of-type(2) button{ /*  Buis 3 onderkant  */
-  height: 23em;
-}
-section ul li:nth-of-type(9) article:nth-of-type(2) button{ /*  Buis 4 onderkant  */
-  height: 26em;
-}
-section ul li:nth-of-type(10) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
-  height: 29em;
-}
-section ul li:nth-of-type(11) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
-  height: 32em;
-}
+
+
+
+
+
+

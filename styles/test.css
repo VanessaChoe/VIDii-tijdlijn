@@ -288,3 +288,74 @@
   section ul li:has(img) {
       align-self: end;
   }
+
+
+
+  /* Buis styling */
+
+section ul li article:nth-of-type(2) header{ /*  Buis bovenkant  */
+  height: 2em;
+  width: 5em;
+  border-radius: 6px;
+  border-bottom: solid 7px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 5px rgb(0 0 0 / 50%);
+  background: linear-gradient( 
+    to right, 
+    #579c66, 
+    #579c66 5px, 
+    #6dad7b 18px, 
+    #e9ffe8 36px, 
+    #9dd591 53px, 
+    #6bb765 103px, 
+    #142e16 100% );
+}
+section ul li article:nth-of-type(2) button{ /*  Buis onderkant  */
+  width: 5em;
+  height: 5em;
+  /* bottom: 0; */
+  border: none;
+  transform: translateX(10%);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    to right,
+    #579c66,
+    #579c66 5px,
+    #6dad7b 15px,
+    #e9ffe8 33px,
+    #9dd591 50px,
+    #6bb765 100px,
+    #142e16 100%
+  );
+}
+
+
+/* Hoogte buizen vanaf buis 2 */
+
+section ul li:nth-of-type(3) article:nth-of-type(2) button{ /*  Buis 2 onderkant  */
+  height: 8em;
+}
+section ul li:nth-of-type(4) article:nth-of-type(2) button{ /*  Buis 3 onderkant  */
+  height: 11em;
+}
+section ul li:nth-of-type(5) article:nth-of-type(2) button{ /*  Buis 4 onderkant  */
+  height: 14em;
+}
+section ul li:nth-of-type(6) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
+  height: 17em;
+}
+
+section ul li:nth-of-type(7) article:nth-of-type(2) button{ /*  Buis 2 onderkant  */
+  height: 20em;
+}
+section ul li:nth-of-type(8) article:nth-of-type(2) button{ /*  Buis 3 onderkant  */
+  height: 23em;
+}
+section ul li:nth-of-type(9) article:nth-of-type(2) button{ /*  Buis 4 onderkant  */
+  height: 26em;
+}
+section ul li:nth-of-type(10) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
+  height: 29em;
+}
+section ul li:nth-of-type(11) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
+  height: 32em;
+}
