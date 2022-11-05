@@ -9,21 +9,12 @@
   margin: 0; 
 }
 
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-
 :root {
   --color-headings:crimson
 }
-
-
-
-
-
-
-
 
 body {
   /* background-image: url("/images/background.jpg"); */
@@ -32,14 +23,7 @@ body {
   background-color: lightblue;
 }
 
-
-
 /* ////////////////// */
-
-
-section {
-  /* background-color:gold; */
-}
 
 section ul{
   display: flex;
@@ -63,13 +47,17 @@ section ul li{
   width: max-content;
   position: relative;
 
-  height:30vw;
+  height:28vw;
 
   background-color:#ff08;
 }
 
 
 /* Mario */
+img.marioT1 {
+  top: -7.5em;
+}
+
 section ul li img {
   display:block;
   position: relative;
@@ -77,21 +65,18 @@ section ul li img {
   width: 6vw;
   height: auto;
   z-index: 100;
-
-  /* animation: jump 5s; */
 }
 
-.naarBlok1{
+.omhoogSpringen{
   animation: jump 2s;
 }
-
 @keyframes jump {
   0% { 
     transform: translateY(0); 
     animation-timing-function: ease-out;
   }
   50% { 
-    transform: translateY(-17vw); 
+    transform: translateY(-15.6vw); 
     animation-timing-function: ease-in;
   }
   100% { 
@@ -99,29 +84,98 @@ section ul li img {
   }
 }
 
+main section ul li:nth-of-type(2) button.knipperen{
+  animation: knipperen 2s 1;
+}
+@keyframes knipperen {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+  opacity: 0.5;
+  }
+}
 
+.marioT1{
+  position: absolute;
+  visibility: hidden;
+}
+.marioVisible{
+  visibility: visible;
+  animation: knipperen 4s 1;
+}
+@keyframes knipperen{
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  30% {
+  opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+  opacity: 0.5;
+  }
+  70% {
+    opacity: 0.5;
+    transform: translateY(700px);
+  }
+  80% {
+  opacity: 0.5;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateY(650px);
+  }
+}
+/* @keyframes vallen{
+    0% { 
+      transform: translateY(0); 
+      animation-timing-function: ease-out;
+    }
+    50% { 
+      transform: translateY(-15.6vw); 
+      animation-timing-function: ease-in;
+    }
+    100% { 
+      transform: translateY(0); 
+    }
+} */
 /* Vraagtekenblokje */
-section ul li  button{ 
+section ul li button{ 
   background-color: #F3CC0A;
   border: solid #9B8204;
   border-radius: 0.2em;
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 
   box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
 
   color: white;
 
-  font-size:1.5vw;
+  font-size:2vw;
 }
 
 /* Container buizen */
-
-
-
-
-
-
 
 
 

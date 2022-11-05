@@ -343,7 +343,6 @@ section ul li:nth-of-type(5) article:nth-of-type(2) button{ /*  Buis 4 onderkant
 section ul li:nth-of-type(6) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
   height: 17em;
 }
-
 section ul li:nth-of-type(7) article:nth-of-type(2) button{ /*  Buis 2 onderkant  */
   height: 20em;
 }
@@ -359,3 +358,370 @@ section ul li:nth-of-type(10) article:nth-of-type(2) button{ /*  Buis 5 onderkan
 section ul li:nth-of-type(11) article:nth-of-type(2) button{ /*  Buis 5 onderkant  */
   height: 32em;
 }
+
+
+
+
+
+
+
+
+
+/*************/
+/* CSS RESET */
+/*************/
+
+/* naar een idee van Jen Simmons */
+
+*, *::after, *::before {
+  box-sizing:border-box; 
+  margin: 0; 
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+:root {
+  --color-headings:crimson
+}
+
+body {
+  /* background-image: url("/images/background.jpg"); */
+  /* overflow-y: scroll;
+  overflow-x: scroll;  */
+  background-color: lightblue;
+}
+
+/* ////////////////// */
+
+section ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  height: 100vh;
+  column-gap: 3vw;
+
+  background-color:#0f88;
+
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+section ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  width: max-content;
+  position: relative;
+  height:28vw;
+  background-color:#ff08;
+}
+
+
+/* Mario */
+section ul li img {
+  /* display:block; */
+  /* position: relative; */
+  width: 6vw;
+  /* height: auto; */
+  /* z-index: 100; */
+}
+
+.omhoogSpringen{
+  animation: jump 2s;
+}
+@keyframes jump {
+  0% { 
+    transform: translateY(0); 
+    animation-timing-function: ease-out;
+  }
+  50% { 
+    transform: translateY(-15.6vw); 
+    animation-timing-function: ease-in;
+  }
+  100% { 
+    transform: translateY(0); 
+  }
+}
+
+main section ul li:nth-of-type(2) button.knipperen{
+  animation: knipperen 2s 1;
+}
+@keyframes knipperen {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+  opacity: 0.5;
+  }
+}
+
+.marioT1{
+  position: absolute;
+  visibility: hidden;
+}
+
+.marioVisible{
+  visibility: visible;
+  animation: knipperen 4s 1;
+}
+@keyframes knipperen {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  30% {
+  opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+  opacity: 0.5;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  80% {
+  opacity: 0.5;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Vraagtekenblokje */
+section ul li button{
+  background-color: #F3CC0A;
+  border: solid #9B8204;
+  border-radius: 0.2em;
+  width: 2em;
+  height: 2em;
+  box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+  color: white;
+  font-size:2vw;
+}
+
+/* Container buizen */
+
+
+
+
+
+img.marioT1 {top: -5em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************/
+/* CSS RESET */
+/*************/
+
+/* naar een idee van Jen Simmons */
+
+*, *::after, *::before {
+  box-sizing:border-box; 
+  margin: 0; 
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+:root {
+  --color-headings:crimson
+}
+
+body {
+  /* background-image: url("/images/background.jpg"); */
+  /* overflow-y: scroll;
+  overflow-x: scroll;  */
+  background-color: lightblue;
+}
+
+/* ////////////////// */
+
+section ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  height: 100vh;
+  column-gap: 3vw;
+
+  background-color:#0f88;
+
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+section ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  width: max-content;
+  position: relative;
+
+  height:28vw;
+
+  background-color:#ff08;
+}
+
+
+/* Mario */
+section ul li img {
+  display:block;
+  position: relative;
+
+  width: 6vw;
+  height: auto;
+  z-index: 100;
+}
+
+.omhoogSpringen{
+  animation: jump 2s;
+}
+@keyframes jump {
+  0% { 
+    transform: translateY(0); 
+    animation-timing-function: ease-out;
+  }
+  50% { 
+    transform: translateY(-15.6vw); 
+    animation-timing-function: ease-in;
+  }
+  100% { 
+    transform: translateY(0); 
+  }
+}
+
+main section ul li:nth-of-type(2) button.knipperen{
+  animation: knipperen 2s 1;
+}
+@keyframes knipperen {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+  opacity: 0.5;
+  }
+}
+
+.marioT1{
+  position: absolute;
+  visibility: hidden;
+}
+
+.marioVisible{
+  visibility: visible;
+  animation: knipperen 4s 1;
+}
+@keyframes knipperen {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  30% {
+  opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+  opacity: 0.5;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  80% {
+  opacity: 0.5;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Vraagtekenblokje */
+section ul li button{ 
+  background-color: #F3CC0A;
+  border: solid #9B8204;
+  border-radius: 0.2em;
+  width: 2em;
+  height: 2em;
+
+  box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+
+  color: white;
+
+  font-size:2vw;
+}
+
+/* Container buizen */
+
+
+
+
+
+img.marioT1 {
+  top: -7.5em;
+}
+
+
+
