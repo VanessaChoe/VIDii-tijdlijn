@@ -29,23 +29,28 @@ var blok1 = document.querySelector("main section ul li:nth-of-type(1) button");
 
 
 
-blok1.addEventListener('click' , function() {
-    mario1.classList.add("omhoogSpringen");
-});
+// blok1.addEventListener('click' , function() {
+//     mario1.classList.add("omhoogSpringen");
+// });
 
 function MarioSpringtOmhoog() {
-    console.log(1)
+
+    console.log("Mario springt omhoog");
+
     mario1.classList.add("omhoogSpringen");
-    console.log(2)
-    blok1.classList.add("knipperen");
-    console.log(3)
-    marioT1.classList.add("marioVisible");
+    blok1.classList.add("blokjeKnippert");
+   
+    setTimeout(function(){
+        marioT1.classList.add("marioVisible")}
+        , 2000);
+    setTimeout(function(){
+    marioT1.classList.add("marioT1valt")}
+    , 4000);
 
-    // setTimeout(() => mario1.classList.add("omhoogSpringen"), 20000);
-
+    mario1.classList.add(".marioT1")
 }
 
-blok1.addEventListener("click", MarioSpringtOmhoog,);
+blok1.addEventListener("click", MarioSpringtOmhoog);
 
 
 
