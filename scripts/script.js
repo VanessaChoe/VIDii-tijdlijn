@@ -3,37 +3,13 @@ console.log("Super Mario Bros!");
 
 var marioT1 = document.querySelector("main section ul li:nth-of-type(1) img:nth-of-type(1)");
 var mario1 = document.querySelector("main section ul li:nth-of-type(1) img:nth-of-type(2)");
-
-// var mario2 = document.querySelector("main section ul li:nth-of-type(2) img");
-// var mario3 = document.querySelector("main section ul li:nth-of-type(3) img");
-// var mario4 = document.querySelector("main section ul li:nth-of-type(4) img");
-// var mario5 = document.querySelector("main section ul li:nth-of-type(5) img");
-// var mario6 = document.querySelector("main section ul li:nth-of-type(6) img");
-// var mario7 = document.querySelector("main section ul li:nth-of-type(7) img");
-// var mario8 = document.querySelector("main section ul li:nth-of-type(8) img");
-// var mario9 = document.querySelector("main section ul li:nth-of-type(9) img");
-// var mario10 = document.querySelector("main section ul li:nth-of-type(10) img");
-// var mario11 = document.querySelector("main section ul li:nth-of-type(11) img");
-
 var blok1 = document.querySelector("main section ul li:nth-of-type(1) button");
-// var blok2 = document.querySelector("main section ul li:nth-of-type(2) button");
-// var blok3 = document.querySelector("main section ul li:nth-of-type(3) button");
-// var blok4 = document.querySelector("main section ul li:nth-of-type(4) button");
-// var blok5 = document.querySelector("main section ul li:nth-of-type(5) button");
-// var blok6 = document.querySelector("main section ul li:nth-of-type(6) button");
-// var blok7 = document.querySelector("main section ul li:nth-of-type(7) button");
-// var blok8 = document.querySelector("main section ul li:nth-of-type(8) button");
-// var blok9 = document.querySelector("main section ul li:nth-of-type(9) button");
-// var blok10 = document.querySelector("main section ul li:nth-of-type(10) button");
-// var blok11 = document.querySelector("main section ul li:nth-of-type(11) button");
+
+var marioT2 = document.querySelector("main section ul li:nth-of-type(2) img:nth-of-type(1)");
+var blok2 = document.querySelector("main section ul li:nth-of-type(2) button");
 
 
-
-// blok1.addEventListener('click' , function() {
-//     mario1.classList.add("omhoogSpringen");
-// });
-
-function MarioSpringtOmhoog() {
+function Mario1SpringtOmhoog() {
 
     console.log("Mario springt omhoog");
 
@@ -41,16 +17,67 @@ function MarioSpringtOmhoog() {
     blok1.classList.add("blokjeKnippert");
    
     setTimeout(function(){
+        console.log("marioT verschijnt")
         marioT1.classList.add("marioVisible")}
         , 2000);
+    
     setTimeout(function(){
-    marioT1.classList.add("marioT1valt")}
-    , 4000);
+        console.log("blok verdwijnt")
+        blok1.classList.add("blokjeVerdwijnt")}
+        , 2700);
 
-    mario1.classList.add(".marioT1")
+    setTimeout(function(){
+        console.log("mario1 valt naar beneden")
+        marioT1.classList.add("marioT1valt")}
+        , 4000);
+
+    setTimeout(function(){
+        console.log("mario1 verdwijnt")
+        mario1.classList.add("marioInvisible")}
+        , 4500);    
+
+    setTimeout(function(){
+        console.log("marioT1 blijft")
+        marioT1.classList.add("marioT1Stays")}
+        , 4500);
 }
 
-blok1.addEventListener("click", MarioSpringtOmhoog);
+function marioNaarBlok() {
+
+    console.log("Mario 2 springt omhoog");
+
+    marioT1.classList.add("marioNaarBlok");
+    blok2.classList.add("blokjeKnippert");
+   
+    setTimeout(function(){
+        console.log("marioT2 verschijnt")
+        marioT2.classList.add("marioVisible")}
+        , 2000);
+    
+    setTimeout(function(){
+        console.log("blok verdwijnt")
+        blok2.classList.add("blokjeVerdwijnt")}
+        , 2700);
+
+    setTimeout(function(){
+        console.log("marioT2 valt naar beneden")
+        marioT2.classList.add("marioT2valt")}
+        , 4000);
+
+    setTimeout(function(){
+        console.log("marioT1 verdwijnt")
+        marioT1.classList.add("marioInvisible")}
+        , 4500);    
+
+    setTimeout(function(){
+        console.log("marioT2 blijft")
+        marioT2.classList.add("marioT1Stays")}
+        , 4500);
+}
+
+blok1.addEventListener("click", Mario1SpringtOmhoog);
+blok2.addEventListener("click", marioNaarBlok);
+
 
 
 
