@@ -1,14 +1,10 @@
 /*************/
 /* CSS RESET */
 /*************/
-
-/* naar een idee van Jen Simmons */
-
 *, *::after, *::before {
   box-sizing:border-box; 
   margin: 0; 
 }
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -17,22 +13,15 @@
 }
 
 body {
-  /* background-image: url("/images/background.jpg");
-  position: absolute;
-  width: 100vw;
+  background-image: url("/assets/images/background.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
   height: 100vh;
-  z-index: 101; */
   overflow-y: hidden;
   overflow-x: hidden; 
   font-family: "SuperMarioBros-ov7d"; 
-  background-color: lightblue;
   /* background-color: lightblue; */
 }
-
-/* header p{
-  position: absolute;
-  color: black;
-} */
 
 /* ////////////////// */
 
@@ -60,6 +49,8 @@ section ul:first-of-type li{
   height:28vw;
 }
 
+
+/* Button algemene styling */
 section ul:first-of-type li button{ 
 
   font-size:2vw;
@@ -67,36 +58,156 @@ section ul:first-of-type li button{
 
   background-color: #F3CC0A;
 
-  border: solid #9B8204;
-  border-radius: 0.2em;
-  box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-
+  /* border: solid #9B8204; */
+  border-radius: 0.1em;
+  /* box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%); */
+  
   width: 2em;
   height: 2em;
 }
+
 section ul:first-of-type li button:hover{
-  transform: scaleY(1.1);
-}
-section ul:first-of-type li:nth-of-type(1) button:nth-of-type(1){
-  background-color: #E7A755;;
-  border-top: 0.15em solid #D7632C;
-  border-left: 0.15em solid #D7632C;
-  border-right: 0.15em solid black;
-  border-bottom: 0.15em solid black;
-  border-radius: 0;
-  box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+  cursor: pointer;
+  transition: 1 ease-in-out;
+  margin-top: -0.2em;
 }
 
-section ul:first-of-type li:first-of-type button:first-of-type{
+
+
+
+
+
+
+
+
+
+/* Blokje 1*/
+section ul:first-of-type li:nth-of-type(1) button{
   position: relative;
+  animation: blokje1AnimatieKnipperen 4s infinite;
 }
+@keyframes blokje1AnimatieKnipperen{ 
+    0%{
 
-section ul:first-of-type li:first-of-type button:first-of-type img{
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    10%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    20%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    30%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    40%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    50%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    60%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    70%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    80%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    90%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    100%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+} 
+
+/* Button vraagteken */
+section ul:first-of-type li:first-of-type button img{
   width: 0.9em;
   height: 0.9em;
   left: 0.2em;
 }
-section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(1){
+
+/* Button 1 stipjes */
+section ul:first-of-type li:first-of-type button span:nth-of-type(1){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
@@ -104,7 +215,7 @@ section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(
   top: 0.12em;
   left: 0.12em;
 }
-section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(2){
+section ul:first-of-type li:first-of-type button span:nth-of-type(2){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
@@ -112,7 +223,7 @@ section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(
   top: 0.12em;
   right: 0.12em;
 }
-section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(3){
+section ul:first-of-type li:first-of-type button span:nth-of-type(3){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
@@ -120,7 +231,7 @@ section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(
   left: 0.12em;
   bottom: 0.12em;
 }
-section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(4){
+section ul:first-of-type li:first-of-type button span:nth-of-type(4){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
@@ -130,7 +241,511 @@ section ul:first-of-type li:first-of-type button:first-of-type span:nth-of-type(
 }
 
 
-/* Mario */
+
+
+
+
+
+
+
+
+/* Blokje 2*/
+section ul:first-of-type li:nth-of-type(2) button{
+  position: relative;
+  animation: blokje1AnimatieKnipperen 4s infinite;
+}
+@keyframes blokje1AnimatieKnipperen{ 
+    0%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    10%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    20%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    30%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    40%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    50%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    60%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    70%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    80%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid #D7632C;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    90%{
+
+    background-color: #71180C;
+    border-top: 0.15em solid #BA5325;
+    border-left: 0.15em solid #BA5325;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+    100%{
+
+    background-color: #E7A755;
+    border-top: 0.15em solid groove #1C6EA4;;
+    border-left: 0.15em solid #D7632C;
+    border-right: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    border-radius: 0;
+    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    }
+} 
+
+/* Button vraagteken */
+section ul:first-of-type li:nth-of-type(2) button img{
+  width: 0.9em;
+  height: 0.9em;
+  left: 0.2em;
+}
+
+/* Button 2 stipjes */
+section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(1){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  top: 0.12em;
+  left: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(2){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  top: 0.12em;
+  right: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(3){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  left: 0.12em;
+  bottom: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(4){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  right: 0.12em;
+  bottom: 0.12em;
+}
+
+
+
+
+
+
+
+
+
+
+/* Blokje 3 */
+section ul:first-of-type li:nth-of-type(3) button{
+  position: relative;
+  background-color: #FEB740;
+  /* border: 0.15em solid black; */
+  box-shadow: 0 0 0 4px black;
+  border-radius: 0;
+  border-top: 3px solid #FCEFCF;
+  border-left: 3px solid #FCEFCF;
+  border-right: #FEB740;
+  border-bottom: #FEB740;
+}
+
+/* Button vraagteken */
+section ul:first-of-type li:nth-of-type(3) button img{
+  width: 0.9em;
+  height: 0.9em;
+  left: 0.2em;
+}
+
+/* Button 3 stipjes */
+section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(1){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  top: 0.12em;
+  left: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(2){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  top: 0.12em;
+  right: 0.2em;
+}
+section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(3){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  left: 0.1em;
+  bottom: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(4){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  right: 0.2em;
+  bottom: 0.12em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Blokje 4 */
+section ul:first-of-type li:nth-of-type(4) button{
+  position: relative;
+  background-color: #FEB740;
+  /* border: 0.15em solid black; */
+  box-shadow: 0 0 0 4px black;
+  border-radius: 0;
+  border-top: 3px solid #FCEFCF;
+  border-left: 3px solid #FCEFCF;
+  border-right: #FEB740;
+  border-bottom: #FEB740;
+}
+
+section ul:first-of-type li:nth-of-type(4) button img{
+  width: 0.9em;
+  height: 0.9em;
+  left: 0.2em;
+}
+
+/* Blokje 4 stipjes */
+section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(1){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  top: 0.12em;
+  left: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(2){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  top: 0.12em;
+  right: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(3){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  left: 0.12em;
+  bottom: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(4){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: black;
+  right: 0.12em;
+  bottom: 0.12em;
+}
+
+
+
+
+
+
+
+
+
+
+/* Blokje 5 */
+
+section ul:first-of-type li:nth-of-type(5) button{
+  position: relative;
+  background-color: #FEB740;
+  /* border: 0.15em solid black; */
+  border-radius: 0;
+  border-top: 4px solid #FDFD11;
+  border-left: 4px solid #B27E01;
+  border-right: 4px solid #B27E01;
+  border-bottom: 4px solid #643E00;
+}
+
+section ul:first-of-type li:nth-of-type(5) button img{
+  width: 0.9em;
+  height: 0.9em;
+  left: 0.2em;
+}
+
+section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(1){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  top: 0.12em;
+  left: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(2){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  top: 0.12em;
+  right: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(3){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  left: 0.12em;
+  bottom: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(4){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  right: 0.12em;
+  bottom: 0.12em;
+}
+
+
+
+
+
+
+
+
+
+
+/* Blok 6 */
+
+section ul:first-of-type li:nth-of-type(6) button{
+  position: relative;
+  background-color: #FEB740;
+  /* border: 0.15em solid black; */
+  border-radius: 0;
+  border-top: 4px solid #FDFD11;
+  border-left: 4px solid #B27E01;
+  border-right: 4px solid #B27E01;
+  border-bottom: 4px solid #643E00;
+}
+
+section ul:first-of-type li:nth-of-type(6) button img{
+  width: 0.9em;
+  height: 0.9em;
+  left: 0.2em;
+}
+
+section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(1){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  top: 0.12em;
+  left: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(2){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  top: 0.12em;
+  right: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(3){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  left: 0.12em;
+  bottom: 0.12em;
+}
+section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(4){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #534108;
+  border-radius: 50%;
+  right: 0.12em;
+  bottom: 0.12em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Blok 7 */
+
+section ul:first-of-type li:nth-of-type(7) button{
+  position: relative;
+  background-color: #FEB740;
+  /* border: 0.15em solid black; */
+  border-radius: 0;
+  border-top: 4px solid #F7E24C;
+  border-left: 4px solid #AB942F;
+  border-right: 4px solid #AB942F;
+  border-bottom: 4px solid #643E00;
+}
+
+section ul:first-of-type li:nth-of-type(7) button img{
+  width: 0.9em;
+  height: 0.9em;
+  left: 0.2em;
+}
+
+section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(1){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color:#A58D31;
+  border-radius: 50%;
+  top: 0.12em;
+  left: 0.12em;
+box-shadow: inset 0px 26px 17px 24px #6D5A1A;
+}
+section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(2){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #A58D31;
+  border-radius: 50%;
+  top: 0.12em;
+  right: 0.12em;
+  box-shadow: inset 0px 26px 17px 24px #6D5A1A;
+}
+section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(3){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #A58D31;
+  border-radius: 50%;
+  left: 0.12em;
+  bottom: 0.12em;
+  box-shadow: inset 0px 26px 17px 24px #6D5A1A;
+}
+section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(4){
+  position: absolute;
+  width: 0.15em;
+  height: 0.15em;
+  background-color: #A58D31;
+  border-radius: 50%;
+  right: 0.12em;
+  bottom: 0.12em;
+  box-shadow: inset 0px 26px 17px 24px #6D5A1A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mario afbeeldingen */
 section ul li img {
   display: block;
   position: relative;
