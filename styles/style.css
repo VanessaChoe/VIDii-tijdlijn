@@ -9,8 +9,18 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-  --color-headings:crimson
+  --achtergrondkleur-button-1tm4: ;
+  --stipjes-button-1tm2: black;
+
+  --achtergrondkleur-button-4tm6: ;
 }
+
+@font-face {
+  font-family: 'SuperMarioBros-ov7d';
+  src: url('/assets/fonts/SuperMarioBros-ov7d.woff') format('woff');
+  /* font-weight: normal;
+  font-style: normal; */
+ }
 
 body {
   background-image: url("/assets/images/background.png");
@@ -19,12 +29,35 @@ body {
   height: 100vh;
   overflow-y: hidden;
   overflow-x: hidden; 
-  font-family: "SuperMarioBros-ov7d"; 
+  font-family: 'SuperMarioBros-ov7d' ,Fallback, sans-serif;; 
   /* background-color: lightblue; */
 }
 
-/* ////////////////// */
 
+/* ////////////////// */
+section{
+  display: grid;
+  place-content: center;
+}
+section h1{
+  position: absolute;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  place-content: center;
+  place-items: center;
+
+  /* 
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    place-content: center;
+    place-items: center; */
+}
 section ul:first-of-type{
   display: flex;
   justify-content: space-around;
@@ -70,6 +103,16 @@ section ul:first-of-type li button:hover{
   cursor: pointer;
   transition: 1 ease-in-out;
   margin-top: -0.2em;
+}
+section ul:first-of-type li button:active{
+  box-shadow: 2px 2px 5px grey;
+}
+section ul:first-of-type li button:visited{
+  background-color: rgb(38, 38, 38);
+}
+section ul:first-of-type li button:focus-visible{
+  border: 1em solid red;
+  background-color: red;
 }
 
 
@@ -211,7 +254,7 @@ section ul:first-of-type li:first-of-type button span:nth-of-type(1){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   left: 0.12em;
 }
@@ -219,7 +262,7 @@ section ul:first-of-type li:first-of-type button span:nth-of-type(2){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   right: 0.12em;
 }
@@ -227,7 +270,7 @@ section ul:first-of-type li:first-of-type button span:nth-of-type(3){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   left: 0.12em;
   bottom: 0.12em;
 }
@@ -235,7 +278,7 @@ section ul:first-of-type li:first-of-type button span:nth-of-type(4){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   right: 0.12em;
   bottom: 0.12em;
 }
@@ -379,7 +422,7 @@ section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(1){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   left: 0.12em;
 }
@@ -387,7 +430,7 @@ section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(2){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   right: 0.12em;
 }
@@ -395,7 +438,7 @@ section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(3){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   left: 0.12em;
   bottom: 0.12em;
 }
@@ -403,7 +446,7 @@ section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(4){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   right: 0.12em;
   bottom: 0.12em;
 }
@@ -442,7 +485,7 @@ section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(1){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   left: 0.12em;
 }
@@ -450,7 +493,7 @@ section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(2){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   right: 0.2em;
 }
@@ -458,7 +501,7 @@ section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(3){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   left: 0.1em;
   bottom: 0.12em;
 }
@@ -466,7 +509,7 @@ section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(4){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   right: 0.2em;
   bottom: 0.12em;
 }
@@ -505,7 +548,7 @@ section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(1){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   left: 0.12em;
 }
@@ -513,7 +556,7 @@ section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(2){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   top: 0.12em;
   right: 0.12em;
 }
@@ -521,7 +564,7 @@ section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(3){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   left: 0.12em;
   bottom: 0.12em;
 }
@@ -529,7 +572,7 @@ section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(4){
   position: absolute;
   width: 0.15em;
   height: 0.15em;
-  background-color: black;
+  background-color: var(--stipjes-button-1tm2);
   right: 0.12em;
   bottom: 0.12em;
 }
@@ -854,7 +897,7 @@ section ul li img {
       animation-timing-function: ease-out;
     }
     100% { 
-      transform: translateX(15.2vw); 
+      transform: translateX(7vw); 
       animation-timing-function: ease-in;
     }
 }
@@ -864,16 +907,20 @@ section ul li img {
 }
   @keyframes marioOmhoog {
     0% { 
-      transform: translateX(15.2vw) translateY(0) translateY(-30vh);   
+      transform: translateX(7vw) translateY(0) translateY(-30vh);   
       animation-timing-function: ease-out;
     }
     100% { 
-      transform: translateX(15.2vw) translateY(-30vh) translateY(30vh);
+      transform: translateX(7vw) translateY(-30vh) translateY(30vh);
       animation-timing-function: ease-in;
   }
 }
 
 
 
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("/assets/images/sky.png");
+  }
+}
 
