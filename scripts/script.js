@@ -4,33 +4,60 @@ console.log("Super Mario Bros!");
 var marioT1 = document.querySelector("main section ul li:nth-of-type(1) img:nth-of-type(1)");
 var mario1 = document.querySelector("main section ul li:nth-of-type(1) img:nth-of-type(2)");
 var blok1 = document.querySelector("main section ul li:nth-of-type(1) button");
+var mario1988_H1 = document.querySelector("main section h1:nth-of-type(2)");
+var background1988 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(1)");
 
 var marioT2 = document.querySelector("main section ul li:nth-of-type(2) img:nth-of-type(1)");
 var blok2 = document.querySelector("main section ul li:nth-of-type(2) button");
+var mario1990_H1 = document.querySelector("main section h1:nth-of-type(3)");
+var background1990 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(2)");
 
 var marioT3 = document.querySelector("main section ul li:nth-of-type(3) img:nth-of-type(1)");
 var blok3 = document.querySelector("main section ul li:nth-of-type(3) button");
+var mario1991_H1 = document.querySelector("main section h1:nth-of-type(4)");
+var background1991 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(3)");
 
 var marioT4 = document.querySelector("main section ul li:nth-of-type(4) img:nth-of-type(1)");
 var blok4 = document.querySelector("main section ul li:nth-of-type(4) button");
+var mario1996_H1 = document.querySelector("main section h1:nth-of-type(5)");
+var background1996 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(4)");
 
 var marioT5 = document.querySelector("main section ul li:nth-of-type(5) img:nth-of-type(1)");
 var blok5 = document.querySelector("main section ul li:nth-of-type(5) button");
+var mario2002_H1 = document.querySelector("main section h1:nth-of-type(6)");
+var background2002 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(5)");
 
 var marioT6 = document.querySelector("main section ul li:nth-of-type(6) img:nth-of-type(1)");
 var blok6 = document.querySelector("main section ul li:nth-of-type(6) button");
+var mario2007_H1 = document.querySelector("main section h1:nth-of-type(6)");
+var background2007 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(6)");
 
 var marioT7 = document.querySelector("main section ul li:nth-of-type(7) img:nth-of-type(1)");
 var blok7 = document.querySelector("main section ul li:nth-of-type(7) button");
+var mario2012_H1 = document.querySelector("main section h1:nth-of-type(8)");
+var background2012 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(7)");
 
+var vraagtekenBlokjes = document.querySelector("main section:nth-of-type(1) ul li");
+var audio = document.querySelector("main audio");
+
+
+
+
+blok1.addEventListener("click", marioNaarBlok1);
 
 function marioNaarBlok1() {
 
     console.log("Mario springt omhoog");
 
-    mario1.classList.add("omhoogSpringen");
+    mario1.classList.add("omhoogSpringen")
+
+    setTimeout(function(){
+    background1988.classList.add("backgroundVisible")
+    mario1988_H1.classList.add("visible")}
+    , 900);
+
     blok1.classList.add("blokjeKnippert");
-   
+    
     setTimeout(function(){
         console.log("Mario 1988 verschijnt")
         marioT1.classList.add("marioVisible")}
@@ -57,6 +84,28 @@ function marioNaarBlok1() {
         , 4500);
 }
 
+blok1.addEventListener("click", audioPlay);
+
+setTimeout(function(){
+    console.log("sound 2 jump")
+blok2.addEventListener("click", audioPlay)}
+, 9000);
+
+blok3.addEventListener("click", audioPlay);
+blok4.addEventListener("click", audioPlay);
+blok5.addEventListener("click", audioPlay);
+blok6.addEventListener("click", audioPlay);
+blok7.addEventListener("click", audioPlay);
+
+
+function audioPlay() {
+    audio.play();
+}
+
+
+
+blok2.addEventListener("click", marioNaarBlok2);
+
 function marioNaarBlok2() {
 
     setTimeout(function(){
@@ -66,7 +115,10 @@ function marioNaarBlok2() {
 
     setTimeout(function(){
         console.log("Blokje 2 knippert")
-        blok2.classList.add("blokjeKnippert")}
+        blok2.classList.add("blokjeKnippert")
+        background1990.classList.add("backgroundVisible")
+        mario1988_H1.classList.remove("visible")
+        mario1990_H1.classList.add("visible")}
         , 2500); //schalen bij springen
 
     setTimeout(function(){
@@ -90,6 +142,9 @@ function marioNaarBlok2() {
         , 8401);
 }
 
+
+blok3.addEventListener("click", marioNaarBlok3);
+
 function marioNaarBlok3() {
 
     setTimeout(function(){
@@ -99,7 +154,10 @@ function marioNaarBlok3() {
 
     setTimeout(function(){
         console.log("Blokje 3 knippert")
-        blok3.classList.add("blokjeKnippert")}
+        blok3.classList.add("blokjeKnippert")
+        background1991.classList.add("backgroundVisible")
+        mario1990_H1.classList.remove("visible")
+        mario1991_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
@@ -123,6 +181,8 @@ function marioNaarBlok3() {
         , 8401);
 }
 
+blok4.addEventListener("click", marioNaarBlok4);
+
 function marioNaarBlok4() {
 
     setTimeout(function(){
@@ -132,7 +192,10 @@ function marioNaarBlok4() {
 
     setTimeout(function(){
         console.log("Blokje 4 knippert")
-        blok4.classList.add("blokjeKnippert")}
+        blok4.classList.add("blokjeKnippert")
+        background1996.classList.add("backgroundVisible")
+        mario1991_H1.classList.remove("visible")
+        mario1996_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
@@ -156,6 +219,7 @@ function marioNaarBlok4() {
         , 8401);
 }
 
+blok5.addEventListener("click", marioNaarBlok5);
 
 function marioNaarBlok5() {
 
@@ -168,8 +232,11 @@ function marioNaarBlok5() {
 
     setTimeout(function(){
         console.log("Blokje 5 knippert")
-        blok5.classList.add("blokjeKnippert")}
-        , 2501);
+        blok5.classList.add("blokjeKnippert")
+        background2002.classList.add("backgroundVisible")
+        mario1996_H1.classList.remove("visible")
+        mario2002_H1.classList.add("visible")}
+        , 2500);
 
     setTimeout(function(){
         console.log("Mario 2007 verschijnt en valt naar beneden")
@@ -192,6 +259,8 @@ function marioNaarBlok5() {
         , 8402);
 }
 
+blok6.addEventListener("click", marioNaarBlok6);
+
 function marioNaarBlok6() {
 
     console.log("marioNaarBlok6")
@@ -203,7 +272,10 @@ function marioNaarBlok6() {
 
     setTimeout(function(){
         console.log("Blokje 6 knippert")
-        blok6.classList.add("blokjeKnippert")}
+        blok6.classList.add("blokjeKnippert")
+        background2007.classList.add("backgroundVisible")
+        mario2002_H1.classList.remove("visible")
+        mario2007_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
@@ -228,6 +300,9 @@ function marioNaarBlok6() {
 }
 
 
+
+blok7.addEventListener("click", marioNaarBlok7);
+
 function marioNaarBlok7() {
 
     console.log("marioNaarBlok7")
@@ -239,7 +314,10 @@ function marioNaarBlok7() {
 
     setTimeout(function(){
         console.log("Blokje 7 knippert")
-        blok7.classList.add("blokjeKnippert")}
+        blok7.classList.add("blokjeKnippert")
+        background2012.classList.add("backgroundVisible")
+        mario2007_H1.classList.remove("visible")
+        mario2012_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
@@ -262,13 +340,4 @@ function marioNaarBlok7() {
         marioT7.classList.add("marioTStays")}
         , 8401);
 }
-
-blok1.addEventListener("click", marioNaarBlok1);
-blok2.addEventListener("click", marioNaarBlok2);
-blok3.addEventListener("click", marioNaarBlok3);
-blok4.addEventListener("click", marioNaarBlok4);
-blok5.addEventListener("click", marioNaarBlok5);
-blok6.addEventListener("click", marioNaarBlok6);
-blok7.addEventListener("click", marioNaarBlok7);
-
 
