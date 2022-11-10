@@ -23,7 +23,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   <summary>Versie 1 Mario door de jaren heen</summary>
 
   ### De eerste versie/schets:
-  <img src="./readme-images/schets" width="375px" alt="Eerste versie/schets">
+  <img src="../readme-images/schets" width="375px" alt="Eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -33,7 +33,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - Kritisch oplossingen bedenken tijdens het coderen
   - Een soortgelijke mario bros game maken
 
-  <img src="./readme-images/storyboard" width="375px" alt="Storyboard">
+  <img src="../readme-images/storyboard" width="375px" alt="Storyboard">
 
   In de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
 
@@ -104,7 +104,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
 
   ### Iteratie
 
-  <img src="/readme-images/Onderzoek_mario" width="375px" alt="Onderzoek Mario en blokjes">
+  <img src="../readme-images/Onderzoek_mario" width="375px" alt="Onderzoek Mario en blokjes">
 
   Na de feedback ronde heb ik wat aanpassingen gedaan op mijn ontwerp. Ik heb onder andere de blokjes een passende styling gegeven en wat meer onderzoek gedaan naar de blokjes door de jaren heen. Daarnaast ben ik ook nog aan de slag gegaan om Mario steeds te laten springen naar het volgende blokje. Dit vond ik in eerste instantie best wel moeilijk, maar naar wat meer naar animaties te hebben gekeken, lukte mij dit aardig. Toen kwam het volgende probleem en dat was dat Mario wel van het eerste blokje naar de tweede blokje kon springen, maar niet verder. Terwijl ik dezelfde code had toegepast. Later naar wat uitproberen en hulp te hebben gevraagd, bleek dat ik de code in de animatie op twee regels had geschreven terwijl het op 1 regel moest en daarnaast had ik twee verschillende animaties geschreven die elkaar steeds gingen overschrijven, waardoor ik uiteindelijk gewoon in 1 animatie een delay had moeten geven op de andere animatie bij het voeren van 1 functie. 
 
@@ -155,28 +155,28 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   Mijn eindresultaat: Mario door de jaren heen!
 
   Mario 1985
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 1988
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 1990
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 1991
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 1996
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 2002
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 2007
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   Mario 2012
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="../readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
   ### Dit ging goed/Heb ik geleerd: 
   Uiteindelijk heb ik Mario kunnen animeren en met Javascript kunnen laten springen en bewegen. Daarnaast een Mario laten verschijnen en weer naar beneden laten vallen is ook gelukt. Kortom heb ik geleerd om meerdere animaties binnen een functie te laten werken met verschillende classes die dan in de css worden toegevoegd. Zelf werk ik bijna nooit met Javascript en vond het daarom wel leuk en fijn dat ik me wat beter in Javascript, maar ook CSS kon verdiepen.
