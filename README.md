@@ -23,7 +23,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   <summary>Versie 1 Mario door de jaren heen</summary>
 
   ### De eerste versie/schets:
-  <img src="/readme-images/schets" width="375px" alt="eerste versie/schets">
+  <img src="./readme-images/schets" width="375px" alt="Eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -33,7 +33,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - Kritisch oplossingen bedenken tijdens het coderen
   - Een soortgelijke mario bros game maken
 
-  <img src="/readme-images/storyboard" width="375px" alt="storyboard">
+  <img src="./readme-images/storyboard" width="375px" alt="Storyboard">
 
   In de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
 
@@ -48,29 +48,17 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
 <details>
   <summary>Feedback ronde 1</summary>
 
-  ### Feedback 1:
-  Misschien ook een mogelijkheid om terug naar beneden te gaan
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Feedback 2:
-  Misschien dat je de achtergrond en elementen ook mee kunt laten veranderen met de tijd
-  #### oplossing:
-  Dit lijkt mij een goed idee om later in het proces even op terug te blikken. Voor nu focussen op 1 achtergrond. Later kan ik altijd meerdere achtegronden toevoegen van verschillende jaren.
-
-  ### Feedback 3:
-  Leuk concept het doet me erg denken aan mario.
-
-  ### Bevinding 3:
-  Misschien geluidjes door de jaren heen 
-  ### oplossing:
-  Mij leek het leuk om om in iedere geval springgeluiden toe te vagen wanneer Mario springt. Als tip heb ik gekregen om eventueel Mario geluidjes door de jaren heen toe te voegen.
-  ### Bevinding 3:
-  Idee misschien peach in het kasteel plaatsen en af en toe te in beeld brengen 
-  ### oplossing:
-  Leuke detail! Niet per se gericht op Mario, maar deze detail kan het spel wel unieker maken.
+  ### Feedback
+  - Misschien ook een mogelijkheid om terug naar beneden te gaan
+  - Misschien dat je de achtergrond en elementen ook mee kunt laten veranderen met de tijd
+  - Leuk concept het doet me erg denken aan mario.
+  - Misschien geluidjes door de jaren heen
+  - Idee misschien peach in het kasteel plaatsen en af en toe te in beeld brengen 
+  #### Oplossing
+  - Eerst focussen op vooruit dan ga ik aan de slag met achteruit.
+  - Dit lijkt mij een goed idee om later in het proces even op terug te blikken. Voor nu focussen op 1 achtergrond. Later kan ik altijd meerdere achtegronden toevoegen van verschillende jaren.
+  - Mij leek het leuk om om in iedere geval springgeluiden toe te vagen wanneer Mario springt. Als tip heb ik gekregen om eventueel Mario geluidjes door de jaren heen toe te voegen.
+  - Leuke detail! Niet per se gericht op Mario, maar deze detail kan het spel wel unieker maken.
 
   ### Iteratie
 
@@ -98,7 +86,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - States werken niet helemaal
   - Styling van de buttons passen nog niet helemaal bij het ontwerp
 
-  #### oplossing:
+  #### Oplossing
   - Custom properties missen inderdaad nog, ik had nog geen tekst in mijn prototype verwerkt. Dit ga ik oplossen door jaartallen van de Mario's toe te voegen.
   - Ik kan nog wat meer comments toevoegen in HTML, CSS en Javascript om bepaalde functies uit te leggen, maar ook om mijn code geordend te houden.
   - Classen zal ik weghalen
@@ -107,6 +95,8 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - De styling van de buttons ga ik nog aanpassen op het jaartal van de Mario die uit een blokje tevoorschijn komt.
 
   ### Iteratie
+
+  <img src="/readme-images/Onderzoek_mario" width="375px" alt="Onderzoek Mario en blokjes">
 
   Na de feedback ronde heb ik wat aanpassingen gedaan op mijn ontwerp. Ik heb onder andere de blokjes een passende styling gegeven en wat meer onderzoek gedaan naar de blokjes door de jaren heen. Daarnaast ben ik ook nog aan de slag gegaan om Mario steeds te laten springen naar het volgende blokje. Dit vond ik in eerste instantie best wel moeilijk, maar naar wat meer naar animaties te hebben gekeken, lukte mij dit aardig. Toen kwam het volgende probleem en dat was dat Mario wel van het eerste blokje naar de tweede blokje kon springen, maar niet verder. Terwijl ik dezelfde code had toegepast. Later naar wat uitproberen en hulp te hebben gevraagd, bleek dat ik de code in de animatie op twee regels had geschreven terwijl het op 1 regel moest en daarnaast had ik twee verschillende animaties geschreven die elkaar steeds gingen overschrijven, waardoor ik uiteindelijk gewoon in 1 animatie een delay had moeten geven op de andere animatie bij het voeren van 1 functie. 
 
@@ -120,15 +110,10 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
-  ### Feedback 1:
+  ### Feedback
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
 
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-  ### Bevinding 3:
-  ...
+ 
 
 </details>
 
