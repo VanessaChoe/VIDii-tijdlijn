@@ -35,7 +35,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
 
   <img src="../readme-images/storyboard" width="375px" alt="Storyboard">
 
-  In de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
+  Inn de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
 
 
 </details>
