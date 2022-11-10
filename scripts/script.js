@@ -4,6 +4,7 @@ console.log("Super Mario Bros!");
 var marioT1 = document.querySelector("main section ul li:nth-of-type(1) img:nth-of-type(1)");
 var mario1 = document.querySelector("main section ul li:nth-of-type(1) img:nth-of-type(2)");
 var blok1 = document.querySelector("main section ul li:nth-of-type(1) button");
+var mario1985_H1 = document.querySelector("main section h1:nth-of-type(1)");
 var mario1988_H1 = document.querySelector("main section h1:nth-of-type(2)");
 var background1988 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(1)");
 
@@ -50,9 +51,11 @@ function marioNaarBlok1() {
     console.log("Mario springt omhoog");
 
     mario1.classList.add("omhoogSpringen")
-
+    audio.play()
+ 
     setTimeout(function(){
     background1988.classList.add("backgroundVisible")
+    mario1985_H1.classList.add("hidden")
     mario1988_H1.classList.add("visible")}
     , 900);
 
@@ -62,7 +65,7 @@ function marioNaarBlok1() {
         console.log("Mario 1988 verschijnt")
         marioT1.classList.add("marioVisible")}
         , 2000);
-    
+
     setTimeout(function(){
         console.log("Blokje 1 verdwijnt")
         blok1.classList.add("blokjeVerdwijnt")}
@@ -84,26 +87,6 @@ function marioNaarBlok1() {
         , 4500);
 }
 
-blok1.addEventListener("click", audioPlay);
-
-setTimeout(function(){
-    console.log("sound 2 jump")
-blok2.addEventListener("click", audioPlay)}
-, 9000);
-
-blok3.addEventListener("click", audioPlay);
-blok4.addEventListener("click", audioPlay);
-blok5.addEventListener("click", audioPlay);
-blok6.addEventListener("click", audioPlay);
-blok7.addEventListener("click", audioPlay);
-
-
-function audioPlay() {
-    audio.play();
-}
-
-
-
 blok2.addEventListener("click", marioNaarBlok2);
 
 function marioNaarBlok2() {
@@ -114,11 +97,16 @@ function marioNaarBlok2() {
         , 500);
 
     setTimeout(function(){
+        audio.play()}
+        , 2300);
+
+    setTimeout(function(){
         console.log("Blokje 2 knippert")
         blok2.classList.add("blokjeKnippert")
         background1990.classList.add("backgroundVisible")
         mario1988_H1.classList.remove("visible")
-        mario1990_H1.classList.add("visible")}
+        mario1990_H1.classList.add("visible")
+        audio.play()}
         , 2500); //schalen bij springen
 
     setTimeout(function(){
@@ -151,6 +139,10 @@ function marioNaarBlok3() {
         console.log("Mario 1990 gaat opzij en omhoog")
         marioT2.classList.add("marioOpzijEnOmhoog")}
         , 500);
+
+    setTimeout(function(){
+        audio.play()}
+        , 2100);
 
     setTimeout(function(){
         console.log("Blokje 3 knippert")
@@ -189,6 +181,10 @@ function marioNaarBlok4() {
         console.log("Mario 1991 gaat opzij en omhoog")
         marioT3.classList.add("marioOpzijEnOmhoog")}
         , 500);
+
+    setTimeout(function(){
+        audio.play()}
+        , 2100);
 
     setTimeout(function(){
         console.log("Blokje 4 knippert")
@@ -231,6 +227,10 @@ function marioNaarBlok5() {
         , 501);
 
     setTimeout(function(){
+        audio.play()}
+        , 2100);
+
+    setTimeout(function(){
         console.log("Blokje 5 knippert")
         blok5.classList.add("blokjeKnippert")
         background2002.classList.add("backgroundVisible")
@@ -269,6 +269,10 @@ function marioNaarBlok6() {
         console.log("Mario 1991 gaat opzij en omhoog")
         marioT5.classList.add("marioOpzijEnOmhoog")}
         , 500);
+
+    setTimeout(function(){
+        audio.play()}
+        , 2100);
 
     setTimeout(function(){
         console.log("Blokje 6 knippert")
@@ -313,6 +317,10 @@ function marioNaarBlok7() {
         , 500);
 
     setTimeout(function(){
+        audio.play()}
+        , 2300);
+
+    setTimeout(function(){
         console.log("Blokje 7 knippert")
         blok7.classList.add("blokjeKnippert")
         background2012.classList.add("backgroundVisible")
@@ -337,7 +345,7 @@ function marioNaarBlok7() {
 
     setTimeout(function(){
         console.log("Mario 2012 blijft")
-        marioT7.classList.add("marioTStays")}
+        marioT7.classList.add("marioT1Stays")}
         , 8401);
 }
 

@@ -18,6 +18,16 @@
 @font-face {
   font-family: 'SuperMarioBros-ov7d';
   src: url('/assets/fonts/SuperMarioBros-ov7d.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SuperMario2562';
+  src: url('/assets/fonts/SuperMario2562.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Super_Mario_Bros_Alphabet';
+  src: url('/assets/fonts/Super_Mario_Bros_Alphabet.woff') format('woff');
  }
 
 body {
@@ -37,7 +47,7 @@ section{
   place-content: center;
 }
 section h1{
-  font-size: 1.5em;
+  font-size: 1.8em;
   display: grid;
   place-content: center;
   place-items: center;
@@ -46,7 +56,328 @@ section h1{
   z-index: 1;
 }
 
-.visible{
+section h1:first-of-type{
+  font-family: 'Super_Mario_Bros_Alphabet';
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  color: #E1B0AA;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  visibility: visible;
+  z-index: 1;
+  background-color:#9D411E;
+}
+section h1:first-of-type.hidden{
+  visibility: hidden;
+}
+
+section h1:nth-of-type(2){
+  font-family: 'Super_Mario_Bros_Alphabet';
+  letter-spacing: 0.1em;
+  font-size: 1.8em;
+  color: white;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  visibility: hidden;
+  z-index: 1;
+  background-color:#7575F1;
+}
+section h1:nth-of-type(2).visible{
+  visibility: visible;
+}
+
+section h1:nth-of-type(3){
+  font-family: 'Super_Mario_Bros_Alphabet';
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  font-size: 1.8em;
+  color: #0064D0;
+  text-shadow: 0.9px 1px 1px  rgba(255,0,0,0.95);
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  visibility: hidden;
+  z-index: 1;
+  background-color: #FEFD03;
+}
+section h1:nth-of-type(3).visible{
+  visibility: visible;
+}
+
+section h1:nth-of-type(4){
+  
+  font-family: 'SuperMario2562';
+  font-size: 1.8em;
+  color: white;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  -webkit-text-stroke: 1px black;
+  
+  visibility: hidden;
+  z-index: 1;
+  background-color: #98E0DD;
+
+  display: flex;
+  visibility: hidden;
+  z-index: 1;
+}
+/* section h1:nth-of-type(4){
+  display: flex;
+  visibility: hidden;
+  z-index: 1;
+} */
+
+
+section h1:nth-of-type(4) span:nth-of-type(1){
+  color: #F43639;
+}
+section h1:nth-of-type(4) span:nth-of-type(2){
+  color: #00D5F5;
+}
+section h1:nth-of-type(4) span:nth-of-type(3){
+  color: #FBC333;
+}
+section h1:nth-of-type(4) span:nth-of-type(4){
+  color: #00D5F5;
+}
+section h1:nth-of-type(4) span:nth-of-type(5){
+  color: #00CB01;
+  margin-right: 0.3em;
+}
+section h1:nth-of-type(4) span:nth-of-type(6){
+  color: #00CB01;
+}
+section h1:nth-of-type(4) span:nth-of-type(7){
+  color: #00D5F5;
+}
+section h1:nth-of-type(4) span:nth-of-type(8){
+  color: #FBC333;
+}
+section h1:nth-of-type(4) span:nth-of-type(9){
+  color: #F43639;
+}
+section h1:nth-of-type(4) span:nth-of-type(10){
+  color: #00CB01;
+  margin-right: 0.3em;
+}
+section h1:nth-of-type(4) span:nth-of-type(11){
+  color: #FBC333;
+}
+section h1:nth-of-type(4) span:nth-of-type(12){
+  color: #00D5F5;
+}
+section h1:nth-of-type(4) span:nth-of-type(13){
+  color: #00CB01;
+}
+section h1:nth-of-type(4) span:nth-of-type(14){
+  color: #F43639;
+}
+section h1:nth-of-type(4) span:nth-of-type(15){
+  color: #00CB01;
+  margin-right: 0.3em;
+}
+section h1:nth-of-type(4) span:nth-of-type(16){
+  color: black;
+  margin-right: 0.3em;
+}
+section h1:nth-of-type(4) span:nth-of-type(17){
+  color: #F43639;
+}
+section h1:nth-of-type(4) span:nth-of-type(18){
+  color: #00D5F5;
+}
+section h1:nth-of-type(4) span:nth-of-type(19){
+  color: #FBC333;
+}
+section h1:nth-of-type(4) span:nth-of-type(20){
+  color: #00D5F5;
+}
+section h1:nth-of-type(4) span:nth-of-type(21){
+  color: #00CB01;
+}
+
+
+section h1:nth-of-type(4).visible{
+  display: flex;
+  visibility: visible;
+}
+
+section h1:nth-of-type(5){
+  font-family: 'SuperMario2562';
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  font-size: 1.8em;
+  color: #3A90FD;
+  -webkit-text-stroke: 1px black;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  visibility: hidden;
+  z-index: 1;
+  background-color: #98E0DD;
+}
+
+section h1:nth-of-type(5) span:nth-of-type(1){
+  color: #F42B07;
+}
+section h1:nth-of-type(5) span:nth-of-type(2){
+  color: #6C7CB9;
+}
+section h1:nth-of-type(5) span:nth-of-type(3){
+  color: #FBC333;
+}
+section h1:nth-of-type(5) span:nth-of-type(4){
+  color: #6C7CB9;
+}
+section h1:nth-of-type(5) span:nth-of-type(5){
+  color: #00CB01;
+  margin-right: 0.3em;
+}
+section h1:nth-of-type(5) span:nth-of-type(6){
+  color: #F42B07;
+}
+section h1:nth-of-type(5) span:nth-of-type(7){
+  color: #F42B07;
+  margin-right: 0.3em;
+}
+section h1:nth-of-type(5) span:nth-of-type(8){
+  color: #6C7CB9;
+}
+section h1:nth-of-type(5) span:nth-of-type(9){
+  color: #00CB01;
+}
+section h1:nth-of-type(5) span:nth-of-type(10){
+  color: #FBC333;
+}
+section h1:nth-of-type(5) span:nth-of-type(11){
+  color: #F42B07;
+}
+section h1:nth-of-type(5) span:nth-of-type(12){
+  color: #00CB01;
+
+}
+section h1:nth-of-type(5) span:nth-of-type(13){
+  color: black;
+}
+section h1:nth-of-type(5) span:nth-of-type(14){
+  color: #F42B07;
+}
+section h1:nth-of-type(5) span:nth-of-type(15){
+  color: #6C7CB9;
+ 
+}
+section h1:nth-of-type(5) span:nth-of-type(16){
+  color: #FBC333;
+}
+section h1:nth-of-type(5) span:nth-of-type(17){
+  color: #00CB01;
+}
+
+section h1:nth-of-type(5).visible{
+  display: flex;
+  visibility: visible;
+}
+
+section h1:nth-of-type(6){
+  font-family: 'SuperMario2562';
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  color: #2E75FD;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  -webkit-text-stroke: 1px white;
+
+  visibility: hidden;
+  z-index: 1;
+  /* background-color: #98E0DD; */
+}
+section h1:nth-of-type(6).visible{
+  visibility: visible;
+}
+
+section h1:nth-of-type(7){
+  font-family: 'SuperMario2562';
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  color: #2E75FD;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  -webkit-text-stroke: 1px white;
+
+  visibility: hidden;
+  z-index: 1;
+  /* background-color: #98E0DD; */
+}
+section h1:nth-of-type(7).visible{
+  visibility: visible;
+}
+
+section h1:nth-of-type(8){
+  font-family: 'SuperMario2562';
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  color: white;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  -webkit-text-stroke: 1px grey;
+
+  visibility: hidden;
+  z-index: 1;
+  background-color: black;
+}
+section h1:nth-of-type(8).visible{
+  visibility: visible;
+}
+
+section h1:nth-of-type(5).visible{
+  visibility: visible;
+}
+
+section h1:nth-of-type(7){
+  font-size: 1.8em;
+  color: #2E75FD;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-bottom: -3em;
+  margin-top: 1em;
+  
+  border: 5px solid white;
+
+  visibility: hidden;
+  z-index: 1;
+  /* background-color: #98E0DD; */
+}
+section h1:nth-of-type(7).visible{
   visibility: visible;
 }
 
@@ -100,7 +431,7 @@ section ul:first-of-type li button:active{
   box-shadow: 2px 2px 5px black;
 }
 section ul:first-of-type li button:visited{
- background-color: red;
+  outline: 0.1em solid red;
 }
 section ul:first-of-type li button:focus-visible{
   outline: 0.1em solid white;
