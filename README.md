@@ -23,7 +23,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   <summary>Versie 1 Mario door de jaren heen</summary>
 
   ### De eerste versie/schets:
-  <img src="./readme-images/Schermafbeelding 2022-11-10 om 17.53.41" width="375px" alt="Schets">
+  <img src="./readme-images/Schermafbeelding2022-11-10om17.53.41.png" width="375px" alt="Schets">
 
 
   ### Je ambitie: 
@@ -33,7 +33,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - Kritisch oplossingen bedenken tijdens het coderen
   - Een soortgelijke mario bros game maken
 
-  <img src="./readme-images/Schermafbeelding 2022-11-10 om 17.54.18d" width="375px" alt="Storyboard">
+  <img src="./readme-images/Schermafbeelding2022-11-10om17.54.18.png" width="375px" alt="Storyboard">
 
   In de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
 
