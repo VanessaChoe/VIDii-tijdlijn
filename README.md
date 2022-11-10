@@ -1,15 +1,15 @@
 # Procesverslag
 
-## Jij
+## Ontwerper
 
 ### Ontwerper:
 Vanessa Choe
-#### Je startniveau:
+#### Startniveau:
 Blauw
 
 
 
-# Je plan
+# Plan
 
 <h1>Welkom in mijn procesverslag van mijn project,  Mario door de jaren heen!</h1>
 
@@ -23,7 +23,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   <summary>Versie 1 Mario door de jaren heen</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/schets" width="375px" alt="eerste versie/schets">
+  <img src="/readme-images/schets" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -33,9 +33,15 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - Kritisch oplossingen bedenken tijdens het coderen
   - Een soortgelijke mario bros game maken
 
-  <img src="readme-images/storyboard" width="375px" alt="storyboard">
+  <img src="/readme-images/storyboard" width="375px" alt="storyboard">
 
   In de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
+
+  ### Iteratie
+
+  Na wat uitgeprobeerd te hebben in HTML en CSS ben ik op de conclusie gekomen om de buizen weg te laten. Dit omdat ik dan Mario eerst op de buis moet laten springen en vervolgens weer omhoog moet laten springen om een nieuwere versie van Mario tevoorschijn kan laten halen. Hiertussen zitten ook een paar stappen tussen (bijvoorbeeld animaties en Javascript) die voor mij niet haalbaar zijn om het binnen 1,5 week te doen. 
+
+  Daarom heb ik gekozen om alleen de vraagtekenblokjes in het ontwerp te houden. De vraagtekenblokjes zijn ook goed herkenbaar voor de meeste mensen waardoor je het weghalen van de buizen kan beschouwen als het weghalen van een versiering uit de game.
 </details>
 
 
