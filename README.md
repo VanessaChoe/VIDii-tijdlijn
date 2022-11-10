@@ -104,7 +104,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
 
   ### Iteratie
 
-  <img src="./readme-images/Onderzoek_mario" width="375px" alt="Onderzoek Mario en blokjes">
+  <img src="./readme-images/Onderzoek_mario.png" width="375px" alt="Onderzoek Mario en blokjes">
 
   Na de feedback ronde heb ik wat aanpassingen gedaan op mijn ontwerp. Ik heb onder andere de blokjes een passende styling gegeven en wat meer onderzoek gedaan naar de blokjes door de jaren heen. Daarnaast ben ik ook nog aan de slag gegaan om Mario steeds te laten springen naar het volgende blokje. Dit vond ik in eerste instantie best wel moeilijk, maar naar wat meer naar animaties te hebben gekeken, lukte mij dit aardig. Toen kwam het volgende probleem en dat was dat Mario wel van het eerste blokje naar de tweede blokje kon springen, maar niet verder. Terwijl ik dezelfde code had toegepast. Later naar wat uitproberen en hulp te hebben gevraagd, bleek dat ik de code in de animatie op twee regels had geschreven terwijl het op 1 regel moest en daarnaast had ik twee verschillende animaties geschreven die elkaar steeds gingen overschrijven, waardoor ik uiteindelijk gewoon in 1 animatie een delay had moeten geven op de andere animatie bij het voeren van 1 functie. 
 
@@ -155,41 +155,36 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   Mijn eindresultaat: Mario door de jaren heen!
 
   Mario 1985
-  <img src="./readme-images/1988" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1988.png" width="375px" alt="final ontwerp">
 
   Mario 1988
-  <img src="./readme-images/1985" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1985.png" width="375px" alt="final ontwerp">
 
   Mario 1990
-  <img src="./readme-images/1990" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1990.png" width="375px" alt="final ontwerp">
 
   Mario 1991
-  <img src="./readme-images/1991" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1991.png" width="375px" alt="final ontwerp">
 
   Mario 1996
-  <img src="./readme-images/1996" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1996.png" width="375px" alt="final ontwerp">
 
   Mario 2002
-  <img src="./readme-images/2002" width="375px" alt="final ontwerp">
+  <img src="./readme-images/2002.png" width="375px" alt="final ontwerp">
 
   Mario 2007
-  <img src="./readme-images/2007" width="375px" alt="final ontwerp">
+  <img src="./readme-images/2007.png" width="375px" alt="final ontwerp">
 
   Mario 2012
-  <img src="./readme-images/2012" width="375px" alt="final ontwerp">
+  <img src="./readme-images/2012.png" width="375px" alt="final ontwerp">
 
   ### Dit ging goed/Heb ik geleerd: 
   Uiteindelijk heb ik Mario kunnen animeren en met Javascript kunnen laten springen en bewegen. Daarnaast een Mario laten verschijnen en weer naar beneden laten vallen is ook gelukt. Kortom heb ik geleerd om meerdere animaties binnen een functie te laten werken met verschillende classes die dan in de css worden toegevoegd. Zelf werk ik bijna nooit met Javascript en vond het daarom wel leuk en fijn dat ik me wat beter in Javascript, maar ook CSS kon verdiepen.
 
   Ondanks het feit dat dit vak in 1,5 week af moest, heb ik voor mijn gevoel toch meer geleerd dan andere vakken die we vaak niet in 1,5 week doen. Omdat we elke les hadden en we elke dag met dit vak bezig waren, zat ik er ook meer in en was ik echt alleen maar bezig met dit vak en niks anders. Daarnaast vond ik het ook fijn dat je veel tijd kreeg in de les om aan je werk te werken en dat er een studentenassisten beschikbaar was in de klas, maar ook na de les vond ik erg fijn.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
   ### Dit was lastig/Is niet gelukt:
   Ik ben er niet aan toegekomen om Mario terug te laten springen/lopen. Mario vooruit laten lopen en springen was nam al veel tijd in beslag. Daarnaast had ik bij de verschillende jaartallen/achtegronden meer kleine animatie willen toevoegen, zoals het vliegen van bijvoorbeeld een sterretje of lopende schildpadjes, vliegende vraagtekenblokjes, lopende paddenstoel, sounds of bewegende wolkjes etc. Dit heb ik helaas niet kunnen doen doordat ik geen tijd meer had.
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
