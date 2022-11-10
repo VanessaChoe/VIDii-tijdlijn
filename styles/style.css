@@ -9,8 +9,119 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
+  --tweede-section-h1: white;
+
   --achtergrondkleur-button-1tm4: ;
-  --stipjes-button-1tm2: black;
+  --stipjes-button-1tm4: black;
+
+  --eerste_h1-tekstkleur: #E1B0AA; 
+  --eerste_h1-achtergrondkleur: #9d411E;
+
+  --derde_h1-tekstkleur: #0064D0; 
+  --derde_h1-achtergrondkleur: #FEFD03;
+
+  --vierde_h1-webkit-text-stroke-kleur: black;
+  --vierde_h1-achtergrondkleur: #98E0DD;
+  --vierde_h1-tekstkleur: white;
+
+  --vierde_h1-s: #F43639;
+  --vierde_h1-u: #00D5F5;
+  --vierde_h1-p: #FBC333;
+  --vierde_h1-e: #00D5F5;
+  --vierde_h1-r: #00CB01;
+
+  --vierde_h1-m: #00CB01;
+  --vierde_h1-a: #00D5F5;
+  --vierde_h1-r: #FBC333;
+  --vierde_h1-i: #F43639;
+  --vierde_h1-o: #00CB01;
+
+  --vierde_h1-w: #FBC333;
+  --vierde_h1-o: #00D5F5;
+  --vierde_h1-r: #00CB01;
+  --vierde_h1-l: #F43639;
+  --vierde_h1-d: #00CB01;
+
+  --vierde_h1-: black;
+
+  --vierde_h1-1: #F43639;
+  --vierde_h1-9: #00D5F5;
+  --vierde_h1-9: #FBC333;
+  --vierde_h1-1: #00D5F5;
+
+  --vijfde_h1--webkit-text-stroke: black;
+  --vijfde_h1-achtergrondkleur: #449CF8;
+  --vijfde_h1-tekstkleur: #98E0DD;
+
+  --vijfde_h1-s: #F42B07;
+  --vijfde_h1-u: #6C7CB9;
+  --vijfde_h1-p: #FBC333;
+  --vijfde_h1-e: #6C7CB9;
+  --vijfde_h1-r: #00CB01;
+
+  --vijfde_h1-64: #F42B07;
+
+  --vijfde_h1-m: #6C7CB9;
+  --vijfde_h1-a: #00CB01;
+  --vijfde_h1-r: #FBC333;
+  --vijfde_h1-i: #F42B07;
+  --vijfde_h1-o: #00CB01;
+
+  --vijfde_h1-: black;
+
+  --vijfde_h1-1: #F42B07;
+  --vijfde_h1-9: #6C7CB9;
+  --vijfde_h1-9: #FBC333;
+  --vijfde_h1-6: #00CB01;
+
+  --zesde_h1-tekstkleur: #2E75FD;
+  --zesde_h1--webkit-text-stroke: white;
+
+
+  --zevende_h1-tekstkleur: grey;
+  --zevende_h1--webkit-text-stroke: white;
+
+  --zevende_h1-m: #0045FF;
+  --zevende_h1-a: #38EB2C;
+  --zevende_h1-r: #FBC333;
+  --zevende_h1-i: #F42B07;
+  --zevende_h1-o: #38EB2C;
+
+  --zevende_h1-zwart: black;
+  --zevende_h1-wit: white;
+
+  --blokje1en2-animatie1-achtergrondkleur: #E7A755;
+  --blokje1en2-animatie1-border-top-left: #D7632C;
+  --blokje1en2-animatie1-border-right: black;
+
+  --blokje1en2-animatie2-achtergrondkleur: #71180C;
+  --blokje1en2-animatie2-border-top-left: #BA5325;
+  --blokje1en2-animatie2-border-right: black;
+ 
+
+  --achtste_h1-achtergrondkleur: black;
+  --achtste_h1-tekstkleur: white;
+
+  --blokje-schaduw: black;
+  --blokje-outline: white;
+
+  --blokje3en4-achtergrondkleur: #FEB740;
+  --blokje3en4-border-top-left: #FCEFCF;
+  --blokje3en4-border-right-bottom: #FEB740;
+
+  --blokje5en6-achtergrondkleur: #FEB740;
+  --blokje5en6-border-top: #FDFD11;
+  --blokje5en6-border-left-right: #B27E01;
+  --blokje5en6-border-bottom: #643E00;
+  --blokje5en6-stipjes: 534108;
+
+  --blokje7-achtergrondkleur: #FEB740;
+  --blokje7-border-top: #F7E24C;
+  --blokje7-border-left-right: #AB942F;
+  --blokje7-border-bottom: #643E00;
+  --blokje7-stipjes-shaduw: #6D5A1A;
+  --blokje7-stipjes: #A58D31;
+
 
   --achtergrondkleur-button-4tm6: ;
 }
@@ -30,7 +141,7 @@
   src: url('/assets/fonts/Super_Mario_Bros_Alphabet.woff') format('woff');
  }
 
-body {
+body { 			/* https://lens.google.com/search?p=AcLkwR3zAjsvQOf0VcPaeMBniFzIUjoC2ykB9H0DcotUQP209sWnM_VFAWqYdibOpPvQtmlhEGMK-3OoK6Xcl-LucfjSwKD5kdyW7jAmlINHT4GWmAxMAcFePTvc9e8YOdJzMa50HqhAp6zvndPYFAv8j_9VkHLpUvUFiVxz21X4q-Lsr8TKLLvp36f6nTyp1YwI5lR1EJL6eUiCaYH4KoMO6dO9775iAXZ0CyltRRLzW09vLKCXnj5r3uZPcmAEhIG70FetEo6ZwJuxRC7Pz-jofXxG8DAHbd5iTdNEk26fBz43mzUdoaCdk9wkZB_bAvtAZce2aEohqfK5fU74LPr0nSnm6GEAJUWf78JHK4mWDSUiAwxxO6w_&ep=gisbubb&hl=nl&re=df#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR1JqTmpVME1qbGlMV0ZqTXpJdE5EQmlOeTA0WlRneUxUVTJOV1UyWmpnMU9EZGlZeElmVlROd1pVdFlNbUZHUzFsWFVVUjFWV2RKVkUxaWJEZG5lVEJGWkZKb1p3PT0iLG51bGwsbnVsbCxudWxsXQ== */
   background-image: url("/assets/images/background1958.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
@@ -41,350 +152,449 @@ body {
 }
 
 
-/* ////////////////// */
+/***********************/
+/* Eerste section - h1 */
+/***********************/
 section{
   display: grid;
   place-content: center;
 }
+
+/* Algemene styling */
 section h1{
-  font-size: 1.8em;
   display: grid;
   place-content: center;
   place-items: center;
+
   margin-bottom: -3em;
+
   visibility:hidden;
   z-index: 1;
 }
 
+/* Eerste h1 */
 section h1:first-of-type{
   font-family: 'Super_Mario_Bros_Alphabet';
   font-size: 1.8em;
   letter-spacing: 0.1em;
-  color: #E1B0AA;
+
   display: grid;
   place-content: center;
   place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
+
   visibility: visible;
   z-index: 1;
-  background-color:#9D411E;
+
+  margin-bottom: -3em;
+  margin-top: 1em;
+
+  margin-bottom: -3em;
+  margin-top: 1em;
+
+  color: var(--eerste_h1-tekstkleur);
+  background-color: var(--eerste_h1-achtergrondkleur);
 }
 section h1:first-of-type.hidden{
   visibility: hidden;
 }
 
+/* Tweede h1 */
 section h1:nth-of-type(2){
   font-family: 'Super_Mario_Bros_Alphabet';
-  letter-spacing: 0.1em;
   font-size: 1.8em;
-  color: white;
+  letter-spacing: 0.1em;
+
   display: grid;
   place-content: center;
   place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
   visibility: hidden;
   z-index: 1;
-  background-color:#7575F1;
+
+  margin-bottom: -3em;
+  margin-top: 1em;
+
+  color: var(--tweede-section-h1);
 }
 section h1:nth-of-type(2).visible{
   visibility: visible;
 }
 
+/* Derde h1 */
 section h1:nth-of-type(3){
   font-family: 'Super_Mario_Bros_Alphabet';
   font-size: 1.8em;
   letter-spacing: 0.1em;
   font-size: 1.8em;
-  color: #0064D0;
-  text-shadow: 0.9px 1px 1px  rgba(255,0,0,0.95);
+
   display: grid;
   place-content: center;
   place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
   visibility: hidden;
   z-index: 1;
-  background-color: #FEFD03;
+
+  margin-bottom: -3em;
+  margin-top: 1em;
+
+  background-color: var(--derde_h1-achtergrondkleur);
+  color: var(--derde_h1-tekstkleur);
 }
 section h1:nth-of-type(3).visible{
   visibility: visible;
 }
 
+/* Vierde h1 */
 section h1:nth-of-type(4){
-  
   font-family: 'SuperMario2562';
   font-size: 1.8em;
-  color: white;
+
   display: grid;
   place-content: center;
   place-items: center;
+  visibility: hidden;
+  display: flex;
+  visibility: hidden;
+  z-index: 1;
+
   margin-bottom: -3em;
   margin-top: 1em;
-  -webkit-text-stroke: 1px black;
-  
-  visibility: hidden;
-  z-index: 1;
-  background-color: #98E0DD;
 
-  display: flex;
-  visibility: hidden;
-  z-index: 1;
+  -webkit-text-stroke: 0.063em var(--vierde_h1-webkit-text-stroke-kleur);
+  color: var(--vierde_h1-tekstkleur);
+  background-color: var(--vierde_h1-achtergrondkleur);
 }
-/* section h1:nth-of-type(4){
-  display: flex;
-  visibility: hidden;
-  z-index: 1;
-} */
-
-
-section h1:nth-of-type(4) span:nth-of-type(1){
-  color: #F43639;
-}
-section h1:nth-of-type(4) span:nth-of-type(2){
-  color: #00D5F5;
-}
-section h1:nth-of-type(4) span:nth-of-type(3){
-  color: #FBC333;
-}
-section h1:nth-of-type(4) span:nth-of-type(4){
-  color: #00D5F5;
-}
-section h1:nth-of-type(4) span:nth-of-type(5){
-  color: #00CB01;
-  margin-right: 0.3em;
-}
-section h1:nth-of-type(4) span:nth-of-type(6){
-  color: #00CB01;
-}
-section h1:nth-of-type(4) span:nth-of-type(7){
-  color: #00D5F5;
-}
-section h1:nth-of-type(4) span:nth-of-type(8){
-  color: #FBC333;
-}
-section h1:nth-of-type(4) span:nth-of-type(9){
-  color: #F43639;
-}
-section h1:nth-of-type(4) span:nth-of-type(10){
-  color: #00CB01;
-  margin-right: 0.3em;
-}
-section h1:nth-of-type(4) span:nth-of-type(11){
-  color: #FBC333;
-}
-section h1:nth-of-type(4) span:nth-of-type(12){
-  color: #00D5F5;
-}
-section h1:nth-of-type(4) span:nth-of-type(13){
-  color: #00CB01;
-}
-section h1:nth-of-type(4) span:nth-of-type(14){
-  color: #F43639;
-}
-section h1:nth-of-type(4) span:nth-of-type(15){
-  color: #00CB01;
-  margin-right: 0.3em;
-}
-section h1:nth-of-type(4) span:nth-of-type(16){
-  color: black;
-  margin-right: 0.3em;
-}
-section h1:nth-of-type(4) span:nth-of-type(17){
-  color: #F43639;
-}
-section h1:nth-of-type(4) span:nth-of-type(18){
-  color: #00D5F5;
-}
-section h1:nth-of-type(4) span:nth-of-type(19){
-  color: #FBC333;
-}
-section h1:nth-of-type(4) span:nth-of-type(20){
-  color: #00D5F5;
-}
-section h1:nth-of-type(4) span:nth-of-type(21){
-  color: #00CB01;
-}
-
-
 section h1:nth-of-type(4).visible{
   display: flex;
   visibility: visible;
 }
 
+  /* Styling per letter (SUPER MARIO WORLD - 1991)*/
+
+  section h1:nth-of-type(4) span:nth-of-type(1){    /*S*/
+    color: var(--vierde_h1-s);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(2){    /*U*/
+    color: var(--vierde_h1-u);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(3){    /*P*/
+    color: var(--vierde_h1-p);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(4){    /*E*/
+    color: var(--vierde_h1-e);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(5){    /*R*/
+    color: var(--vierde_h1-r);
+    margin-right: 0.3em;
+  }
+  section h1:nth-of-type(4) span:nth-of-type(6){    /*M*/
+    color: var(--vierde_h1-m);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(7){    /*A*/
+    color: var(--vierde_h1-a);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(8){    /*R*/
+    color: var(--vierde_h1-r);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(9){    /*I*/
+    color: var(--vierde_h1-i);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(10){   /*O*/
+    color: var(--vierde_h1-o);
+    margin-right: 0.3em;
+  }
+  section h1:nth-of-type(4) span:nth-of-type(11){   /*W*/
+    color: var(--vierde_h1-w);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(12){   /*O*/
+    color: var(--vierde_h1-o);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(13){   /*R*/
+    color: var(--vierde_h1-r);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(14){   /*L*/
+    color: var(--vierde_h1-l);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(15){   /*D*/
+    color: var(--vierde_h1-d);
+    margin-right: 0.3em;
+  }
+  section h1:nth-of-type(4) span:nth-of-type(16){   /*-*/
+    color: var(--vierde_h1-);
+    margin-right: 0.3em;
+  }
+  section h1:nth-of-type(4) span:nth-of-type(17){   /*1*/
+    color: var(--vierde_h1-1);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(18){   /*9*/
+    color: var(--vierde_h1-9);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(19){   /*9*/
+    color: var(--vierde_h1-9);
+  }
+  section h1:nth-of-type(4) span:nth-of-type(20){   /*1*/
+    color: var(--vierde_h1-1);
+  }
+
+
+/* Vijfde h1 */
 section h1:nth-of-type(5){
   font-family: 'SuperMario2562';
   font-size: 1.8em;
-  letter-spacing: 0.1em;
-  font-size: 1.8em;
-  color: #3A90FD;
-  -webkit-text-stroke: 1px black;
+
   display: grid;
   place-content: center;
   place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
+  visibility: hidden;
+  display: flex;
   visibility: hidden;
   z-index: 1;
-  background-color: #98E0DD;
-}
 
-section h1:nth-of-type(5) span:nth-of-type(1){
-  color: #F42B07;
-}
-section h1:nth-of-type(5) span:nth-of-type(2){
-  color: #6C7CB9;
-}
-section h1:nth-of-type(5) span:nth-of-type(3){
-  color: #FBC333;
-}
-section h1:nth-of-type(5) span:nth-of-type(4){
-  color: #6C7CB9;
-}
-section h1:nth-of-type(5) span:nth-of-type(5){
-  color: #00CB01;
-  margin-right: 0.3em;
-}
-section h1:nth-of-type(5) span:nth-of-type(6){
-  color: #F42B07;
-}
-section h1:nth-of-type(5) span:nth-of-type(7){
-  color: #F42B07;
-  margin-right: 0.3em;
-}
-section h1:nth-of-type(5) span:nth-of-type(8){
-  color: #6C7CB9;
-}
-section h1:nth-of-type(5) span:nth-of-type(9){
-  color: #00CB01;
-}
-section h1:nth-of-type(5) span:nth-of-type(10){
-  color: #FBC333;
-}
-section h1:nth-of-type(5) span:nth-of-type(11){
-  color: #F42B07;
-}
-section h1:nth-of-type(5) span:nth-of-type(12){
-  color: #00CB01;
+  margin-bottom: -3em;
+  margin-top: 1em;
 
+  -webkit-text-stroke: 0.063em var(--vijfde_h1--webkit-text-stroke);
+  color: var(--vijfde_h1-tekstkleur);
+  background-color: var(--vijfde_h1-achtergrondkleur);
 }
-section h1:nth-of-type(5) span:nth-of-type(13){
-  color: black;
-}
-section h1:nth-of-type(5) span:nth-of-type(14){
-  color: #F42B07;
-}
-section h1:nth-of-type(5) span:nth-of-type(15){
-  color: #6C7CB9;
- 
-}
-section h1:nth-of-type(5) span:nth-of-type(16){
-  color: #FBC333;
-}
-section h1:nth-of-type(5) span:nth-of-type(17){
-  color: #00CB01;
-}
-
 section h1:nth-of-type(5).visible{
   display: flex;
   visibility: visible;
 }
 
+  /* Styling per letter (SUPER MARIO - 1996)*/
+
+  section h1:nth-of-type(5) span:nth-of-type(1){    /*S*/
+    color: var(--vijfde_h1-s);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(2){    /*U*/
+    color: var(--vijfde_h1-u);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(3){    /*P*/
+    color: var(--vijfde_h1-p);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(4){    /*E*/
+    color: var(--vijfde_h1-e);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(5){    /*R*/
+    color: var(--vijfde_h1-r);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(5) span:nth-of-type(6){    /*64*/
+    color: var(--vijfde_h1-64);
+    margin-right: 0.2em;
+  }
+
+  section h1:nth-of-type(5) span:nth-of-type(7){    /*M*/
+    color: var(--vijfde_h1-m);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(8){    /*A*/
+    color: var(--vijfde_h1-a);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(9){    /*R*/
+    color: var(--vijfde_h1-r);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(10){   /*I*/
+    color: var(--vijfde_h1-i);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(11){   /*O*/
+    color: var(--vijfde_h1-o);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(5) span:nth-of-type(12){   /*-*/
+    color: var(--vijfde_h1-);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(5) span:nth-of-type(13){   /*1*/
+    color: var(--vijfde_h1-1);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(14){   /*9*/
+    color: var(--vijfde_h1-9);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(15){   /*9*/
+    color: var(--vijfde_h1-9);
+  }
+  section h1:nth-of-type(5) span:nth-of-type(16){   /*6*/
+    color: var(--vijfde_h1-6);
+  }
+
+
+/* Zesde h1 */
 section h1:nth-of-type(6){
   font-family: 'SuperMario2562';
   font-size: 1.8em;
   letter-spacing: 0.1em;
-  color: #2E75FD;
+
   display: grid;
   place-content: center;
   place-items: center;
+  visibility: hidden;
+  z-index: 1;
+
   margin-bottom: -3em;
   margin-top: 1em;
   
-  -webkit-text-stroke: 1px white;
-
-  visibility: hidden;
-  z-index: 1;
-  /* background-color: #98E0DD; */
+  color: var(--zesde_h1-tekstkleur);
+  -webkit-text-stroke: 0.063em var(--zesde_h1--webkit-text-stroke);
 }
 section h1:nth-of-type(6).visible{
   visibility: visible;
 }
 
+
+/* Zevende h1 */
 section h1:nth-of-type(7){
   font-family: 'SuperMario2562';
   font-size: 1.8em;
-  letter-spacing: 0.1em;
-  color: #2E75FD;
+
   display: grid;
   place-content: center;
   place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
-  -webkit-text-stroke: 1px white;
-
+  visibility: hidden;
+  display: flex;
   visibility: hidden;
   z-index: 1;
-  /* background-color: #98E0DD; */
+
+  margin-bottom: -3em;
+  margin-top: 1em;
+
+  -webkit-text-stroke: 0.05em var(--zevende_h1--webkit-text-stroke);
+  color: var(--zevende_h1-tekstkleur);
 }
 section h1:nth-of-type(7).visible{
+  display: flex;
   visibility: visible;
 }
 
+  /* Styling per letter (SUPER MARIO GALAXY - 2007)*/
+
+  section h1:nth-of-type(7) span:nth-of-type(1){    /*S*/
+    color: var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(2){    /*U*/
+    color: var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(3){    /*P*/
+    color: var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(4){    /*E*/
+    color: var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(5){    /*R*/
+    color: var(--zevende_h1-wit);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(7) span:nth-of-type(6){    /*M*/
+    color: var(--zevende_h1-m);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(7){    /*A*/
+    color: var(--zevende_h1-a);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(8){    /*R*/
+    color: var(--zevende_h1-r);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(9){    /*I*/
+    color: var(--zevende_h1-i);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(10){   /*O*/
+    color: var(--zevende_h1-o);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(7) span:nth-of-type(11){    /*G*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.05em var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(12){    /*A*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.05em var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(13){    /*L*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.05em var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(14){   /*A*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.05em var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(15){   /*X*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.05em var(--zevende_h1-wit);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(16){   /*Y*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.05em var(--zevende_h1-wit);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(7) span:nth-of-type(17){   /*-*/
+    color: var(--zevende_h1-zwart);
+    -webkit-text-stroke: 0.063em var(--zevende_h1-zwart);
+    margin-right: 0.3em;
+  }
+
+  section h1:nth-of-type(7) span:nth-of-type(18){   /*2*/
+    color: var(--zevende_h1-wit);
+    -webkit-text-stroke: 0.063em var(--zevende_h1-zwart);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(19){   /*0*/
+    color: var(--zevende_h1-wit);
+    -webkit-text-stroke: 0.063em var(--zevende_h1-zwart);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(20){   /*0*/
+    color: var(--zevende_h1-wit);
+    -webkit-text-stroke: 0.063em var(--zevende_h1-zwart);
+  }
+  section h1:nth-of-type(7) span:nth-of-type(21){   /*7*/
+    color: var(--zevende_h1-wit);
+    -webkit-text-stroke: 0.063em var(--zevende_h1-zwart);
+  }
+
+
+
+
+
+/* Achtste h1 (Laatste) */
 section h1:nth-of-type(8){
   font-family: 'SuperMario2562';
   font-size: 1.8em;
-  letter-spacing: 0.1em;
-  color: white;
+
   display: grid;
   place-content: center;
   place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
-  -webkit-text-stroke: 1px grey;
-
+  visibility: hidden;
+  display: flex;
   visibility: hidden;
   z-index: 1;
-  background-color: black;
+
+  margin-bottom: -3em;
+  margin-top: 1em;
+
+  text-shadow: 2px 2px 0px rgba(10, 10, 10, 1);
+  color: var(--achtste_h1-tekstkleur);
+  background-color: var(--achtste_h1-achtergrondkleur);
 }
 section h1:nth-of-type(8).visible{
+  display: flex;
   visibility: visible;
 }
 
-section h1:nth-of-type(5).visible{
-  visibility: visible;
-}
 
-section h1:nth-of-type(7){
-  font-size: 1.8em;
-  color: #2E75FD;
-  display: grid;
-  place-content: center;
-  place-items: center;
-  margin-bottom: -3em;
-  margin-top: 1em;
-  
-  border: 5px solid white;
 
-  visibility: hidden;
-  z-index: 1;
-  /* background-color: #98E0DD; */
-}
-section h1:nth-of-type(7).visible{
-  visibility: visible;
-}
 
+
+
+
+/******************/
+/* Tweede section */
+/******************/
 section ul:first-of-type{
   display: flex;
   justify-content: space-around;
   align-items: end;
+
   height: 100vh;
   column-gap: 3vw;
 
@@ -402,41 +612,42 @@ section ul:first-of-type li{
   align-items: center;
 
   width: max-content;
-  height:28vw;
+  height: 28vw;
 }
 
 
-/* Button algemene styling */
+/* Button blokjes algemene styling */
 section ul:first-of-type li button{ 
-  display:flex;
-  position:relative;
-  font-size:2vw;
-  color: white;
-  align-content: center;
-  background-color: #F3CC0A;
+  display: flex;
+  position: relative;
+  justify-content: center;
   align-items: center;
-  border-radius: 0.1em;
+  z-index: 1;
   
   width: 2em;
   height: 2em;
-  z-index: 1;
+
+  border-radius: 0.1em;
+  padding: 1.5em;
 }
 
+/* Button blokjes states */
 section ul:first-of-type li button:hover{
   cursor: pointer;
   transition: 1 ease-in-out;
   margin-top: -0.2em;
 }
 section ul:first-of-type li button:active{
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 0.25em 0.25em 0.625em var(--blokje-schaduw);
 }
 section ul:first-of-type li button:visited{
-  outline: 0.1em solid red;
+  opacity: 0.2 10s;
 }
 section ul:first-of-type li button:focus-visible{
-  outline: 0.1em solid white;
+  outline: 0.2em solid var(--blokje-outline);
 }
 
+/* Button vraagteken */
 section ul:first-of-type li button img {
   height: 1.15em;
 }
@@ -448,157 +659,142 @@ section ul:first-of-type li button img {
 
 
 
+
+
 /* Blokje 1*/
 section ul:first-of-type li:nth-of-type(1) button{
   position: relative;
-  animation: blokje1AnimatieKnipperen 4s infinite;
+  animation: blokje1en2AnimatieKnipperen 4s infinite;
 }
-@keyframes blokje1AnimatieKnipperen{ 
-    0%{
+section ul:first-of-type li:nth-of-type(1) button:active{
+  box-shadow: 0.25em 0.25em 0.625em var(--blokje-schaduw);
+}
 
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+@keyframes blokje1en2AnimatieKnipperen{ 
+    0%{
+    background-color: var(--blokje1en2-animatie1-achtergrondkleur);
+    border-top: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+    border-left: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+    border-right: 0.25em solid var(--blokje1en2-animatie1-border-right);
     }
     10%{
 
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+    background-color: var(--blokje1en2-animatie2-achtergrondkleur);
+    border-top: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+    border-left: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+    border-right: 0.25em solid var(--blokje1en2-animatie2-border-right);
     }
     20%{
 
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie1-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie1-border-right);
     }
     30%{
 
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie2-achtergrondkleur);
+    border-top: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+    border-left: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+    border-right: 0.25em solid var(--blokje1en2-animatie2-border-right);
     }
     40%{
 
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie1-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie1-border-right);
     }
     50%{
 
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie2-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie2-border-right);
     }
     60%{
 
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie1-achtergrondkleur);
+    border-top: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+    border-left: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+    border-right: 0.25em solid var(--blokje1en2-animatie1-border-right);
     }
     70%{
 
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie2-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie2-border-right);
     }
     80%{
 
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie1-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie1-border-right);
     }
     90%{
 
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie2-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie2-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie2-border-right);
     }
     100%{
 
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
+      background-color: var(--blokje1en2-animatie1-achtergrondkleur);
+      border-top: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-left: 0.25em solid var(--blokje1en2-animatie1-border-top-left);
+      border-right: 0.25em solid var(--blokje1en2-animatie1-border-right);
     }
 } 
 
-/* Button 1 stipjes */
-section ul:first-of-type li:first-of-type button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  left: 0.12em;
-}
-section ul:first-of-type li:first-of-type button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  right: 0.12em;
-}
-section ul:first-of-type li:first-of-type button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  left: 0.12em;
-  bottom: 0.12em;
-}
-section ul:first-of-type li:first-of-type button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  right: 0.12em;
-  bottom: 0.12em;
-}
+  /* Blokje 1 stipjes */
+  section ul:first-of-type li:first-of-type button span:nth-of-type(1){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    left: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:first-of-type button span:nth-of-type(2){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    right: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:first-of-type button span:nth-of-type(3){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    left: 0.12em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+
+  }
+  section ul:first-of-type li:first-of-type button span:nth-of-type(4){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    right: 0.12em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
 
 
 
@@ -612,154 +808,61 @@ section ul:first-of-type li:first-of-type button span:nth-of-type(4){
 /* Blokje 2*/
 section ul:first-of-type li:nth-of-type(2) button{
   position: relative;
-  animation: blokje1AnimatieKnipperen 4s infinite;
+  animation: blokje1en2AnimatieKnipperen 4s infinite;
 }
-@keyframes blokje1AnimatieKnipperen{ 
-    0%{
-
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    10%{
-
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    20%{
-
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    30%{
-
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    40%{
-
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    50%{
-
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    60%{
-
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    70%{
-
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    80%{
-
-    background-color: #E7A755;
-    border-top: 0.15em solid #D7632C;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    90%{
-
-    background-color: #71180C;
-    border-top: 0.15em solid #BA5325;
-    border-left: 0.15em solid #BA5325;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-    100%{
-
-    background-color: #E7A755;
-    border-top: 0.15em solid groove #1C6EA4;;
-    border-left: 0.15em solid #D7632C;
-    border-right: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    border-radius: 0;
-    box-shadow: -1px 1px 1px 1px rgb(0 0 0 / 70%);
-    }
-} 
-
-/* Button 2 stipjes */
-section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  left: 0.12em;
+section ul:first-of-type li:nth-of-type(2) button:active{
+  box-shadow: 0.25em 0.25em 0.625em var(--blokje-schaduw);
 }
-section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  right: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  left: 0.12em;
-  bottom: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  right: 0.12em;
-  bottom: 0.12em;
-}
+
+  /* Blokje stipjes */
+  section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(1){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    left: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+
+  }
+  section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(2){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    right: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+
+  }
+  section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(3){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    left: 0.12em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+
+  }
+  section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(4){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    right: 0.12em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+
+  }
 
 
 
@@ -773,50 +876,68 @@ section ul:first-of-type li:nth-of-type(2) button span:nth-of-type(4){
 /* Blokje 3 */
 section ul:first-of-type li:nth-of-type(3) button{
   position: relative;
-  background-color: #FEB740;
-  /* border: 0.15em solid black; */
-  box-shadow: 0 0 0 4px black;
+
+  background-color: var(--blokje3en4-achtergrondkleur);
+
   border-radius: 0;
-  border-top: 3px solid #FCEFCF;
-  border-left: 3px solid #FCEFCF;
-  border-right: #FEB740;
-  border-bottom: #FEB740;
+  border-top: 0.188em solid var(--blokje3en4-border-top-left);
+  border-left: 0.188em solid var(--blokje3en4-border-top-left);
+  border-right: var(--blokje3en4-border-right-bottom);
+  border-bottom: var(--blokje3en4-border-right-bottom);
+
+  box-shadow: 0 0 0 0.188em var(--blokje-schaduw);
 }
 
-/* Button 3 stipjes */
-section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  left: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  right: 0.2em;
-}
-section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  left: 0.1em;
-  bottom: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  right: 0.2em;
-  bottom: 0.12em;
+section ul:first-of-type li:nth-of-type(3) button:active{
+  box-shadow: 0.25em 0.25em 0.625em var(--blokje-schaduw);
 }
 
+
+  /* Blokje 3 stipjes */
+  section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(1){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    left: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(2){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    right: 0.2em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(3){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    left: 0.1em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(4){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    right: 0.2em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
 
 
 
@@ -830,49 +951,68 @@ section ul:first-of-type li:nth-of-type(3) button span:nth-of-type(4){
 /* Blokje 4 */
 section ul:first-of-type li:nth-of-type(4) button{
   position: relative;
-  background-color: #FEB740;
-  /* border: 0.15em solid black; */
-  box-shadow: 0 0 0 4px black;
+
+  background-color: var(--blokje3en4-achtergrondkleur);
+
   border-radius: 0;
-  border-top: 3px solid #FCEFCF;
-  border-left: 3px solid #FCEFCF;
-  border-right: #FEB740;
-  border-bottom: #FEB740;
+  border-top: 0.188em solid var(--blokje3en4-border-top-left);
+  border-left: 0.188em solid var(--blokje3en4-border-top-left);
+  border-right: var(--blokje3en4-border-right-bottom);
+  border-bottom: var(--blokje3en4-border-right-bottom);
+
+  box-shadow: 0 0 0 0.188em var(--blokje-schaduw);
+}
+section ul:first-of-type li:nth-of-type(4) button:active{
+  box-shadow: 0.25em 0.25em 0.625em var(--blokje-schaduw);
 }
 
-/* Blokje 4 stipjes */
-section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  left: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  top: 0.12em;
-  right: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  left: 0.12em;
-  bottom: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: var(--stipjes-button-1tm2);
-  right: 0.12em;
-  bottom: 0.12em;
-}
+  /* Blokje 4 stipjes */
+  section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(1){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    left: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(2){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    top: 0.12em;
+    right: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+
+  }
+  section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(3){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    left: 0.12em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+  section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(4){
+    position: absolute;
+
+    width: 0.15em;
+    height: 0.15em;
+
+    right: 0.12em;
+    bottom: 0.12em;
+
+    background-color: var(--stipjes-button-1tm4);
+  }
+
 
 
 
@@ -884,54 +1024,53 @@ section ul:first-of-type li:nth-of-type(4) button span:nth-of-type(4){
 
 
 /* Blokje 5 */
-
 section ul:first-of-type li:nth-of-type(5) button{
   position: relative;
-  background-color: #FEB740;
-  /* border: 0.15em solid black; */
+  background-color: var(--blokje5en6-achtergrondkleur);
   border-radius: 0;
-  border-top: 4px solid #FDFD11;
-  border-left: 4px solid #B27E01;
-  border-right: 4px solid #B27E01;
-  border-bottom: 4px solid #643E00;
+  border-top: 0.25em solid var(--blokje5en6-border-top);
+  border-left: 0.25em solid var(--blokje5en6-border-left-right);
+  border-right: 0.25em solid var(--blokje5en6-border-left-right);
+  border-bottom: 0.25em solid var(--blokje5en6-border-bottom);
 }
 
-section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  top: 0.12em;
-  left: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  top: 0.12em;
-  right: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  left: 0.12em;
-  bottom: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  right: 0.12em;
-  bottom: 0.12em;
-}
+  /* Blokje 5 stipjes */
+  section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(1){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    top: 0.12em;
+    left: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(2){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    top: 0.12em;
+    right: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(3){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    left: 0.12em;
+    bottom: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(4){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    right: 0.12em;
+    bottom: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
 
 
 
@@ -942,55 +1081,54 @@ section ul:first-of-type li:nth-of-type(5) button span:nth-of-type(4){
 
 
 
-/* Blok 6 */
-
+/* Blokje 6 */
 section ul:first-of-type li:nth-of-type(6) button{
   position: relative;
-  background-color: #FEB740;
-  /* border: 0.15em solid black; */
+  background-color: var(--blokje5en6-achtergrondkleur);
   border-radius: 0;
-  border-top: 4px solid #FDFD11;
-  border-left: 4px solid #B27E01;
-  border-right: 4px solid #B27E01;
-  border-bottom: 4px solid #643E00;
+  border-top: 0.25em solid var(--blokje5en6-border-top);
+  border-left: 0.25em solid var(--blokje5en6-border-left-right);
+  border-right: 0.25em solid var(--blokje5en6-border-left-right);
+  border-bottom: 0.25em solid var(--blokje5en6-border-bottom);
 }
 
-section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  top: 0.12em;
-  left: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  top: 0.12em;
-  right: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  left: 0.12em;
-  bottom: 0.12em;
-}
-section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #534108;
-  border-radius: 50%;
-  right: 0.12em;
-  bottom: 0.12em;
-}
+  /* Blokje 6 stipjes*/
+  section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(1){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    top: 0.12em;
+    left: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(2){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    top: 0.12em;
+    right: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(3){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    left: 0.12em;
+    bottom: 0.12em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(4){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    border-radius: 50%;
+    background-color: var(--blokje5en6-stipjes);
+    right: 0.12em;
+    bottom: 0.12em;
+  }
 
 
 
@@ -1002,61 +1140,63 @@ section ul:first-of-type li:nth-of-type(6) button span:nth-of-type(4){
 
 
 
-/* Blok 7 */
-
+/* Blokje 7 */
 section ul:first-of-type li:nth-of-type(7) button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  background-color: #FEB740;
-  /* border: 0.15em solid black; */
+
+  background-color: var(--blokje7-achtergrondkleur);
+
   border-radius: 0;
-  border-top: 4px solid #F7E24C;
-  border-left: 4px solid #AB942F;
-  border-right: 4px solid #AB942F;
-  border-bottom: 4px solid #643E00;
+  border-top: 0.25em solid var(--blokje7-border-top);
+  border-left: 0.25em solid var(--blokje7-border-left-right);
+  border-right: 0.25em solid var(--blokje7-border-left-right);
+  border-bottom: 0.25em solid var(--blokje7-border-bottom);
 }
 
-section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(1){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color:#A58D31;
-  border-radius: 50%;
-  top: 0.12em;
-  left: 0.12em;
-box-shadow: inset 0px 26px 17px 24px #6D5A1A;
-}
-section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(2){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #A58D31;
-  border-radius: 50%;
-  top: 0.12em;
-  right: 0.12em;
-  box-shadow: inset 0px 26px 17px 24px #6D5A1A;
-}
-section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(3){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #A58D31;
-  border-radius: 50%;
-  left: 0.12em;
-  bottom: 0.12em;
-  box-shadow: inset 0px 26px 17px 24px #6D5A1A;
-}
-section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(4){
-  position: absolute;
-  width: 0.15em;
-  height: 0.15em;
-  background-color: #A58D31;
-  border-radius: 50%;
-  right: 0.12em;
-  bottom: 0.12em;
-  box-shadow: inset 0px 26px 17px 24px #6D5A1A;
-}
-
-
+  /* Blokje 7 stipjes */
+  section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(1){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    top: 0.12em;
+    left: 0.12em;
+    border-radius: 50%;
+    box-shadow: inset 0 1.625em 1.063em 1.5em var(--blokje7-stipjes-shaduw);
+    background-color: var(--blokje7-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(2){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    top: 0.12em;
+    right: 0.12em;
+    border-radius: 50%;
+    box-shadow: inset 0 1.625em 1.063em 1.5em var(--blokje7-stipjes-shaduw);
+    background-color: var(--blokje7-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(3){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    left: 0.12em;
+    bottom: 0.12em;
+    border-radius: 50%;
+    box-shadow: inset 0 1.625em 1.063em 1.5em var(--blokje7-stipjes-shaduw);
+    background-color: var(--blokje7-stipjes);
+  }
+  section ul:first-of-type li:nth-of-type(7) button span:nth-of-type(4){
+    position: absolute;
+    width: 0.15em;
+    height: 0.15em;
+    right: 0.12em;
+    bottom: 0.12em;
+    border-radius: 50%;
+    box-shadow: inset 0 1.625em 1.063em 1.5em var(--blokje7-stipjes-shaduw);
+    background-color: var(--blokje7-stipjes);
+  }
 
 
 
@@ -1077,21 +1217,10 @@ section ul li img {
   height: auto;
 }
 
-.marioT12Invisible{
-  position: absolute;
-  margin-top: 38.5vh;
-  display: none;
-}
-.marioT12Visible{
-  position: absolute;
-  margin-top: 38.5vh;
-  visibility: visible;
-}
-
 .omhoogSpringen{
-  animation: jump 2s;
+  animation: springen 2s;
 }
-@keyframes jump {
+@keyframes springen {
   0% { 
     transform: translateY(0); 
     animation-timing-function: ease-out;
@@ -1128,7 +1257,7 @@ section ul li img {
   top: -8.3em;
   visibility: hidden;
 }
-.marioVisible{
+.marioVerschijnt{
   position: absolute;
   visibility: visible;
 
@@ -1150,8 +1279,7 @@ section ul li img {
     }
 } 
 
-.marioT1Stays{
-  /* position: relative; */
+.nieuweMarioBlijft{
   top: 39vh;
   display:block;
   z-index: 100;
@@ -1165,7 +1293,6 @@ section ul li img {
   z-index: -1;
 }
   
-/* Functie 2 */
 
 .marioOpzijEnOmhoog{
   animation: marioOpzij 2s 1, marioOmhoog 2s 2s 1;
@@ -1195,35 +1322,23 @@ section ul li img {
   }
 }
 
+
+/*****************/
+/* Achtergronden */
+/*****************/
 section:nth-of-type(2) img{
   position: absolute;
+  visibility: hidden;
   height: 100vh;
   width: 100vw;
   top: 0;
-  visibility: hidden;
 }
-section:nth-of-type(2) img.backgroundVisible{
-  visibility: visible;
-}
-section:nth-of-type(3) img.backgroundVisible{
-  visibility: visible;
-}
-section:nth-of-type(4) img.backgroundVisible{
-  visibility: visible;
-}
-section:nth-of-type(5) img.backgroundVisible{
-  visibility: visible;
-}
-section:nth-of-type(6) img.backgroundVisible{
-  visibility: visible;
-}
-section:nth-of-type(7) img.backgroundVisible{
+section:nth-of-type(2) img.achtergrondZichtbaar{   /* Achtegronden worden zichtbaar */ 
   visibility: visible;
 }
 
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   body {
     background-image: url("/assets/images/sky.png");
   }

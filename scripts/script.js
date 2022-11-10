@@ -30,7 +30,7 @@ var background2002 = document.querySelector("main section:nth-of-type(2) img:nth
 
 var marioT6 = document.querySelector("main section ul li:nth-of-type(6) img:nth-of-type(1)");
 var blok6 = document.querySelector("main section ul li:nth-of-type(6) button");
-var mario2007_H1 = document.querySelector("main section h1:nth-of-type(6)");
+var mario2007_H1 = document.querySelector("main section h1:nth-of-type(7)");
 var background2007 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(6)");
 
 var marioT7 = document.querySelector("main section ul li:nth-of-type(7) img:nth-of-type(1)");
@@ -54,7 +54,7 @@ function marioNaarBlok1() {
     audio.play()
  
     setTimeout(function(){
-    background1988.classList.add("backgroundVisible")
+    background1988.classList.add("achtergrondZichtbaar")
     mario1985_H1.classList.add("hidden")
     mario1988_H1.classList.add("visible")}
     , 900);
@@ -63,7 +63,7 @@ function marioNaarBlok1() {
     
     setTimeout(function(){
         console.log("Mario 1988 verschijnt")
-        marioT1.classList.add("marioVisible")}
+        marioT1.classList.add("marioVerschijnt")}
         , 2000);
 
     setTimeout(function(){
@@ -83,7 +83,7 @@ function marioNaarBlok1() {
 
     setTimeout(function(){
         console.log("Mario 1988 blijft")
-        marioT1.classList.add("marioT1Stays")}
+        marioT1.classList.add("nieuweMarioBlijft")}
         , 4500);
 }
 
@@ -103,7 +103,7 @@ function marioNaarBlok2() {
     setTimeout(function(){
         console.log("Blokje 2 knippert")
         blok2.classList.add("blokjeKnippert")
-        background1990.classList.add("backgroundVisible")
+        background1990.classList.add("achtergrondZichtbaar")
         mario1988_H1.classList.remove("visible")
         mario1990_H1.classList.add("visible")
         audio.play()}
@@ -111,7 +111,7 @@ function marioNaarBlok2() {
 
     setTimeout(function(){
         console.log("Mario 1990 verschijnt en valt naar beneden")
-        marioT2.classList.add("marioVisible")}
+        marioT2.classList.add("marioVerschijnt")}
         , 4900);
 
     setTimeout(function(){
@@ -121,12 +121,12 @@ function marioNaarBlok2() {
 
     setTimeout(function(){
         console.log("Mario 1988 verdwijnt")
-        marioT1.classList.remove("marioVisible")}
+        marioT1.classList.remove("marioVerschijnt")}
         , 8400); 
 
     setTimeout(function(){
         console.log("Mario 1990 blijft")
-        marioT2.classList.add("marioT1Stays")}
+        marioT2.classList.add("nieuweMarioBlijft")}
         , 8401);
 }
 
@@ -147,14 +147,14 @@ function marioNaarBlok3() {
     setTimeout(function(){
         console.log("Blokje 3 knippert")
         blok3.classList.add("blokjeKnippert")
-        background1991.classList.add("backgroundVisible")
+        background1991.classList.add("achtergrondZichtbaar")
         mario1990_H1.classList.remove("visible")
         mario1991_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
         console.log("Mario 1991 verschijnt en valt naar beneden")
-        marioT3.classList.add("marioVisible")}
+        marioT3.classList.add("marioVerschijnt")}
         , 4900);
 
     setTimeout(function(){
@@ -164,12 +164,12 @@ function marioNaarBlok3() {
 
     setTimeout(function(){
         console.log("Mario 1990 verdwijnt")
-        marioT2.classList.remove("marioVisible")}
+        marioT2.classList.remove("marioVerschijnt")}
         , 8400); 
 
     setTimeout(function(){
         console.log("Mario 1991 blijft")
-        marioT3.classList.add("marioT1Stays")}
+        marioT3.classList.add("nieuweMarioBlijft")}
         , 8401);
 }
 
@@ -189,14 +189,14 @@ function marioNaarBlok4() {
     setTimeout(function(){
         console.log("Blokje 4 knippert")
         blok4.classList.add("blokjeKnippert")
-        background1996.classList.add("backgroundVisible")
+        background1996.classList.add("achtergrondZichtbaar")
         mario1991_H1.classList.remove("visible")
         mario1996_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
         console.log("Mario 2002 verschijnt en valt naar beneden")
-        marioT4.classList.add("marioVisible")}
+        marioT4.classList.add("marioVerschijnt")}
         , 4900);
 
     setTimeout(function(){
@@ -206,12 +206,12 @@ function marioNaarBlok4() {
 
     setTimeout(function(){
         console.log("Mario 1991 verdwijnt")
-        marioT3.classList.remove("marioVisible")}
+        marioT3.classList.remove("marioVerschijnt")}
         , 8400); 
 
     setTimeout(function(){
         console.log("Mario 2002 blijft")
-        marioT4.classList.add("marioT1Stays")}
+        marioT4.classList.add("nieuweMarioBlijft")}
         , 8401);
 }
 
@@ -233,14 +233,14 @@ function marioNaarBlok5() {
     setTimeout(function(){
         console.log("Blokje 5 knippert")
         blok5.classList.add("blokjeKnippert")
-        background2002.classList.add("backgroundVisible")
+        background2002.classList.add("achtergrondZichtbaar")
         mario1996_H1.classList.remove("visible")
         mario2002_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
         console.log("Mario 2007 verschijnt en valt naar beneden")
-        marioT5.classList.add("marioVisible")}
+        marioT5.classList.add("marioVerschijnt")}
         , 4901);
 
     setTimeout(function(){
@@ -250,12 +250,12 @@ function marioNaarBlok5() {
 
     setTimeout(function(){
         console.log("Mario 2002 verdwijnt")
-        marioT4.classList.remove("marioVisible")}
+        marioT4.classList.remove("marioVerschijnt")}
         , 8401); 
 
     setTimeout(function(){
         console.log("Mario 2007 blijft")
-        marioT5.classList.add("marioT1Stays")}
+        marioT5.classList.add("nieuweMarioBlijft")}
         , 8402);
 }
 
@@ -277,14 +277,14 @@ function marioNaarBlok6() {
     setTimeout(function(){
         console.log("Blokje 6 knippert")
         blok6.classList.add("blokjeKnippert")
-        background2007.classList.add("backgroundVisible")
+        background2007.classList.add("achtergrondZichtbaar")
         mario2002_H1.classList.remove("visible")
         mario2007_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
         console.log("Mario 2002 verschijnt en valt naar beneden")
-        marioT6.classList.add("marioVisible")}
+        marioT6.classList.add("marioVerschijnt")}
         , 4900);
 
     setTimeout(function(){
@@ -294,12 +294,12 @@ function marioNaarBlok6() {
 
     setTimeout(function(){
         console.log("Mario 1991 verdwijnt")
-        marioT5.classList.remove("marioVisible")}
+        marioT5.classList.remove("marioVerschijnt")}
         , 8400); 
 
     setTimeout(function(){
         console.log("Mario 2007 blijft")
-        marioT6.classList.add("marioT1Stays")}
+        marioT6.classList.add("nieuweMarioBlijft")}
         , 8401);
 }
 
@@ -323,14 +323,14 @@ function marioNaarBlok7() {
     setTimeout(function(){
         console.log("Blokje 7 knippert")
         blok7.classList.add("blokjeKnippert")
-        background2012.classList.add("backgroundVisible")
+        background2012.classList.add("achtergrondZichtbaar")
         mario2007_H1.classList.remove("visible")
         mario2012_H1.classList.add("visible")}
         , 2500);
 
     setTimeout(function(){
         console.log("Mario 2012 verschijnt en valt naar beneden")
-        marioT7.classList.add("marioVisible")}
+        marioT7.classList.add("marioVerschijnt")}
         , 4900);
 
     setTimeout(function(){
@@ -340,12 +340,12 @@ function marioNaarBlok7() {
 
     setTimeout(function(){
         console.log("Mario 2007 verdwijnt")
-        marioT6.classList.remove("marioVisible")}
+        marioT6.classList.remove("marioVerschijnt")}
         , 8400); 
 
     setTimeout(function(){
         console.log("Mario 2012 blijft")
-        marioT7.classList.add("marioT1Stays")}
+        marioT7.classList.add("nieuweMarioBlijft")}
         , 8401);
 }
 
