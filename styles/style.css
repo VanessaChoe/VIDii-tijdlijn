@@ -127,28 +127,28 @@
 }
 
 @font-face {
-  font-family: 'SuperMarioBros-ov7d';
-  src: url('../assets/fonts/SuperMarioBros-ov7d.woff') format('woff');
+  font-family: "SuperMarioBros-ov7d";
+  src: url("../assets/fonts/SuperMarioBros-ov7d.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SuperMario2562';
-  src: url('../assets/fonts/SuperMario2562.woff') format('woff');
+  font-family: "SuperMario2562";
+  src: url("../assets/fonts/SuperMario2562.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Super_Mario_Bros_Alphabet';
-  src: url('../assets/fonts/Super_Mario_Bros_Alphabet.woff') format('woff');
+  font-family: "Super_Mario_Bros_Alphabet";
+  src: url("../assets/fonts/Super_Mario_Bros_Alphabet.woff") format("woff");
  }
 
 body { 			/* https://lens.google.com/search?p=AcLkwR3zAjsvQOf0VcPaeMBniFzIUjoC2ykB9H0DcotUQP209sWnM_VFAWqYdibOpPvQtmlhEGMK-3OoK6Xcl-LucfjSwKD5kdyW7jAmlINHT4GWmAxMAcFePTvc9e8YOdJzMa50HqhAp6zvndPYFAv8j_9VkHLpUvUFiVxz21X4q-Lsr8TKLLvp36f6nTyp1YwI5lR1EJL6eUiCaYH4KoMO6dO9775iAXZ0CyltRRLzW09vLKCXnj5r3uZPcmAEhIG70FetEo6ZwJuxRC7Pz-jofXxG8DAHbd5iTdNEk26fBz43mzUdoaCdk9wkZB_bAvtAZce2aEohqfK5fU74LPr0nSnm6GEAJUWf78JHK4mWDSUiAwxxO6w_&ep=gisbubb&hl=nl&re=df#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR1JqTmpVME1qbGlMV0ZqTXpJdE5EQmlOeTA0WlRneUxUVTJOV1UyWmpnMU9EZGlZeElmVlROd1pVdFlNbUZHUzFsWFVVUjFWV2RKVkUxaWJEZG5lVEJGWkZKb1p3PT0iLG51bGwsbnVsbCxudWxsXQ== */
-  background-image: url("/assets/images/background1958.png");
+  background-image: url("../assets/images/background1958.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   height: 100vh;
   overflow-y: hidden;
   overflow-x: hidden; 
-  font-family: 'SuperMarioBros-ov7d' ,Fallback, sans-serif;; 
+  font-family: "SuperMarioBros-ov7d" , Fallback, "sans-serif"; 
 }
 
 
