@@ -23,7 +23,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   <summary>Versie 1 Mario door de jaren heen</summary>
 
   ### De eerste versie/schets:
-  <img src="./readme-images/schets" width="375px" alt="Schets">
+  <img src="./readme-images/Schermafbeelding 2022-11-10 om 17.53.41" width="375px" alt="Schets">
 
 
   ### Je ambitie: 
@@ -33,7 +33,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   - Kritisch oplossingen bedenken tijdens het coderen
   - Een soortgelijke mario bros game maken
 
-  <img src="./readme-images/storyboard" width="375px" alt="Storyboard">
+  <img src="./readme-images/Schermafbeelding 2022-11-10 om 17.54.18d" width="375px" alt="Storyboard">
 
   In de eerste schets zie je een Mario uit 1985. Het is de bedoeling dat Mario kan springen op de buizen en vervolgens omhoog tegen een vraagtekenblokje kan springen om zo steeds een vernieuwde variant van Mario te krijgen. Hierbij is het idee hoe hoger hoe nieuwer de Mario zal zijn die verschijnt. Als Mario helemaal aan de top is kan hij springen naar het vlaggetje van het kasteel en prinses Peach redden. Wat duidelijk is bij dit idee, is dat de toekomstige interface van dit ontwerp dus erg herkenbaar en makkelijk is. De buizen vormen een trap waardoor de gebruiker al gelijk denkt dat mario omhoog moet om de finish te kunnen bereiken.
 
@@ -155,28 +155,28 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   Mijn eindresultaat: Mario door de jaren heen!
 
   Mario 1985
-  <img src="./readme-images/mario.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1988.png" width="375px" alt="1988">
 
   Mario 1988
-  <img src="./readme-images/1985.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1985.png" width="375px" alt="1985">
 
   Mario 1990
-  <img src="./readme-images/1990.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1990.png" width="375px" alt="1990">
 
   Mario 1991
-  <img src="./readme-images/1991.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1991.png" width="375px" alt="1991">
 
   Mario 1996
-  <img src="./readme-images/1996.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/1996.png" width="375px" alt="1996">
 
   Mario 2002
-  <img src="./readme-images/2002.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/2002.png" width="375px" alt="2002">
 
   Mario 2007
-  <img src="./readme-images/2007.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/2007.png" width="375px" alt="2007">
 
   Mario 2012
-  <img src="./readme-images/2012.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/2012.png" width="375px" alt="2012">
 
   ### Dit ging goed/Heb ik geleerd: 
   Uiteindelijk heb ik Mario kunnen animeren en met Javascript kunnen laten springen en bewegen. Daarnaast een Mario laten verschijnen en weer naar beneden laten vallen is ook gelukt. Kortom heb ik geleerd om meerdere animaties binnen een functie te laten werken met verschillende classes die dan in de css worden toegevoegd. Zelf werk ik bijna nooit met Javascript en vond het daarom wel leuk en fijn dat ik me wat beter in Javascript, maar ook CSS kon verdiepen.
