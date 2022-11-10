@@ -23,7 +23,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   <summary>Versie 1 Mario door de jaren heen</summary>
 
   ### De eerste versie/schets:
-  <img src="../readme-images/schets" width="375px" alt="Eerste versie/schets">
+  <img src="readme-images/mario1985.png" width="375px" alt="Eerste versie/schets">
 
 
   ### Je ambitie: 
