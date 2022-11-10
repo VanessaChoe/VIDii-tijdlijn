@@ -155,7 +155,7 @@ Mijn concept is gebasseerd op de game Super Mario Bros. Mij leek het leuk om ver
   Mijn eindresultaat: Mario door de jaren heen!
 
   Mario 1985
-  <img src="./readme-images/1988.png" width="375px" alt="final ontwerp">
+  <img src="./readme-images/mario.png" width="375px" alt="final ontwerp">
 
   Mario 1988
   <img src="./readme-images/1985.png" width="375px" alt="final ontwerp">
