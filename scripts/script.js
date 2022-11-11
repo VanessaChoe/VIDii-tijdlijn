@@ -39,9 +39,9 @@ var mario2012_H1 = document.querySelector("main section h1:nth-of-type(8)");
 var background2012 = document.querySelector("main section:nth-of-type(2) img:nth-of-type(7)");
 
 var vraagtekenBlokjes = document.querySelector("main section:nth-of-type(1) ul li");
-// var audio = document.querySelector("main audio:first-of-type");
+var audio = document.querySelector("main audio:first-of-type");
 
-var audiospringen = new Audio("main audio:first-of-type");
+var audiospringen = new Audio("assets/sounds/springen.m4a");
 
 
 blok1.addEventListener("click", marioNaarBlok1);
@@ -51,6 +51,7 @@ function marioNaarBlok1() {
     console.log("Mario springt omhoog");
 
     mario1.classList.add("omhoogSpringen")
+    // audiospringen.play()
     audiospringen.play()
  
     setTimeout(function(){
