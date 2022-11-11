@@ -42,8 +42,6 @@ var vraagtekenBlokjes = document.querySelector("main section:nth-of-type(1) ul l
 var audio = document.querySelector("main audio:first-of-type");
 var achtergrondGeluid = document.querySelector("main audio:last-of-type");
 
-// var audiospringen = new Audio("main audio:first-of-type");
-
 
 blok1.addEventListener("click", marioNaarBlok1);
 
@@ -52,6 +50,7 @@ function marioNaarBlok1() {
     console.log("Mario springt omhoog");
 
     mario1.classList.add("omhoogSpringen")
+    
     if (audio.play() !== undefined) {
         audio.play().then(function() {
           // Automatic playback started!
@@ -110,10 +109,6 @@ function marioNaarBlok2() {
         console.log("Mario 1988 gaat naar blok 2")
         marioT1.classList.add("marioOpzijEnOmhoog")}
         , 500);
-
-    setTimeout(function(){
-        audio.play()}
-        , 2300);
 
     setTimeout(function(){
         console.log("Blokje 2 knippert")
