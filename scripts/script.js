@@ -51,7 +51,7 @@ function marioNaarBlok1() {
     console.log("Mario springt omhoog");
 
     mario1.classList.add("omhoogSpringen")
-    audiospringen.play();
+    audiospringen.play()
  
     setTimeout(function(){
     background1988.classList.add("achtergrondZichtbaar")
