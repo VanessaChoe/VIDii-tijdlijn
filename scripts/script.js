@@ -40,6 +40,7 @@ var background2012 = document.querySelector("main section:nth-of-type(2) img:nth
 
 var vraagtekenBlokjes = document.querySelector("main section:nth-of-type(1) ul li");
 var audio = document.querySelector("main audio:first-of-type");
+var achtergrondGeluid = document.querySelector("main audio:last-of-type");
 
 // var audiospringen = new Audio("main audio:first-of-type");
 
@@ -53,6 +54,14 @@ function marioNaarBlok1() {
     mario1.classList.add("omhoogSpringen")
     if (audio.play() !== undefined) {
         audio.play().then(function() {
+          // Automatic playback started!
+        }).catch(function(error) {
+          // Automatic playback failed.
+        });
+    }
+
+    if (achtergrondGeluid.play() !== undefined) {
+        achtergrondGeluid.play().then(function() {
           // Automatic playback started!
         }).catch(function(error) {
           // Automatic playback failed.
