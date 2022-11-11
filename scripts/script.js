@@ -98,7 +98,7 @@ function marioNaarBlok2() {
         , 500);
 
     setTimeout(function(){
-        audio.play()}
+        audiospringen.play()}
         , 2300);
 
     setTimeout(function(){
@@ -142,7 +142,7 @@ function marioNaarBlok3() {
         , 500);
 
     setTimeout(function(){
-        audio.play()}
+        audiospringen.play()}
         , 2100);
 
     setTimeout(function(){
@@ -184,7 +184,7 @@ function marioNaarBlok4() {
         , 500);
 
     setTimeout(function(){
-        audio.play()}
+        audiospringen.play()}
         , 2100);
 
     setTimeout(function(){
@@ -228,7 +228,7 @@ function marioNaarBlok5() {
         , 501);
 
     setTimeout(function(){
-        audio.play()}
+        audiospringen.play()}
         , 2100);
 
     setTimeout(function(){
@@ -272,7 +272,7 @@ function marioNaarBlok6() {
         , 500);
 
     setTimeout(function(){
-        audio.play()}
+        audiospringen.play()}
         , 2100);
 
     setTimeout(function(){
@@ -318,7 +318,7 @@ function marioNaarBlok7() {
         , 500);
 
     setTimeout(function(){
-        audio.play()}
+        audiospringen.play()}
         , 2300);
 
     setTimeout(function(){
