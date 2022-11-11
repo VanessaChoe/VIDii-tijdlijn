@@ -41,7 +41,7 @@ var background2012 = document.querySelector("main section:nth-of-type(2) img:nth
 var vraagtekenBlokjes = document.querySelector("main section:nth-of-type(1) ul li");
 var audio = document.querySelector("main audio:first-of-type");
 
-var audiospringen = new Audio("assets/sounds/springen.m4a");
+// var audiospringen = new Audio("main audio:first-of-type");
 
 
 blok1.addEventListener("click", marioNaarBlok1);
@@ -51,8 +51,13 @@ function marioNaarBlok1() {
     console.log("Mario springt omhoog");
 
     mario1.classList.add("omhoogSpringen")
-    // audiospringen.play()
-    audiospringen.play()
+    if (audio.play() !== undefined) {
+        audio.play().then(function() {
+          // Automatic playback started!
+        }).catch(function(error) {
+          // Automatic playback failed.
+        });
+    }
  
     setTimeout(function(){
     background1988.classList.add("achtergrondZichtbaar")
@@ -98,7 +103,7 @@ function marioNaarBlok2() {
         , 500);
 
     setTimeout(function(){
-        audiospringen.play()}
+        audio.play()}
         , 2300);
 
     setTimeout(function(){
@@ -107,7 +112,13 @@ function marioNaarBlok2() {
         background1990.classList.add("achtergrondZichtbaar")
         mario1988_H1.classList.remove("visible")
         mario1990_H1.classList.add("visible")
-        audio.play()}
+        if (audio.play() !== undefined) {
+            audio.play().then(function() {
+              // Automatic playback started!
+            }).catch(function(error) {
+              // Automatic playback failed.
+            });
+        }}
         , 2500); //schalen bij springen
 
     setTimeout(function(){
@@ -142,7 +153,13 @@ function marioNaarBlok3() {
         , 500);
 
     setTimeout(function(){
-        audiospringen.play()}
+        if (audio.play() !== undefined) {
+            audio.play().then(function() {
+              // Automatic playback started!
+            }).catch(function(error) {
+              // Automatic playback failed.
+            });
+        }}
         , 2100);
 
     setTimeout(function(){
@@ -184,7 +201,13 @@ function marioNaarBlok4() {
         , 500);
 
     setTimeout(function(){
-        audiospringen.play()}
+        if (audio.play() !== undefined) {
+            audio.play().then(function() {
+              // Automatic playback started!
+            }).catch(function(error) {
+              // Automatic playback failed.
+            });
+        }}
         , 2100);
 
     setTimeout(function(){
@@ -228,7 +251,13 @@ function marioNaarBlok5() {
         , 501);
 
     setTimeout(function(){
-        audiospringen.play()}
+        if (audio.play() !== undefined) {
+            audio.play().then(function() {
+              // Automatic playback started!
+            }).catch(function(error) {
+              // Automatic playback failed.
+            });
+        }}
         , 2100);
 
     setTimeout(function(){
@@ -272,7 +301,13 @@ function marioNaarBlok6() {
         , 500);
 
     setTimeout(function(){
-        audiospringen.play()}
+        if (audio.play() !== undefined) {
+            audio.play().then(function() {
+              // Automatic playback started!
+            }).catch(function(error) {
+              // Automatic playback failed.
+            });
+        }}
         , 2100);
 
     setTimeout(function(){
@@ -318,7 +353,13 @@ function marioNaarBlok7() {
         , 500);
 
     setTimeout(function(){
-        audiospringen.play()}
+        if (audio.play() !== undefined) {
+            audio.play().then(function() {
+              // Automatic playback started!
+            }).catch(function(error) {
+              // Automatic playback failed.
+            });
+        }}
         , 2300);
 
     setTimeout(function(){
